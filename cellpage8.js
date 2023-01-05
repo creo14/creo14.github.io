@@ -2467,6 +2467,35 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
+(lib.questionbtn = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("rgba(0,255,255,0.2)").s().p("Eg0rBTGMAAAimLMBpXAAAMAAACmLg");
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f().s("#78F9E2").ss(1,1,1).p("Eg0shTFMBpZAAAMAAACmLMhpZAAAg");
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("rgba(0,0,0,0.098)").s().p("Eg0rBTGMAAAimLMBpXAAAMAAACmLg");
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape}]},1).to({state:[]},1).to({state:[{t:this.shape_2},{t:this.shape_1}]},1).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-338.2,-532.8,676.5,1065.6);
+
+
 (lib.Plane = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -4341,6 +4370,21 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_22()
 		{
 			this.gotoAndPlay(116);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn2.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage2.html");
 		}
 	}
 	this.frame_143 = function() {
@@ -7027,6 +7071,11 @@ if (reversed == null) { reversed = false; }
 	this.page1_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page1_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.questionbtn2 = new lib.questionbtn();
+	this.questionbtn2.name = "questionbtn2";
+	this.questionbtn2.setTransform(497.6,803.6);
+	new cjs.ButtonHelper(this.questionbtn2, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page2_prevpage = new lib.nextpage();
 	this.page2_prevpage.name = "page2_prevpage";
 	this.page2_prevpage.setTransform(55.05,718.8,1,1,180,0,0,27.7,684.8);
@@ -7677,7 +7726,7 @@ if (reversed == null) { reversed = false; }
 	this.page67_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page67_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8b_nextpage},{t:this.page8b_prevpage}]},4).to({state:[]},1).to({state:[{t:this.page8_nextpage},{t:this.page8_prevpage}]},109).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page5_nextpage},{t:this.page5_prevpage}]},10).to({state:[]},1).to({state:[{t:this.page6_nextpage},{t:this.page6_prevpage}]},13).to({state:[]},1).to({state:[{t:this.page7_nextpage},{t:this.page7_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page9_nextpage},{t:this.page9_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page10_nextpage},{t:this.page10_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page11_nextpage},{t:this.page11_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page12_nextpage},{t:this.page12_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page13_nextpage},{t:this.page13_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page14_nextpage},{t:this.page14_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page15_nextpage},{t:this.page15_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page16_nextpage},{t:this.page16_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page17_nextpage},{t:this.page17_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page18_nextpage},{t:this.page18_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page19_nextpage},{t:this.page19_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page20_nextpage},{t:this.page20_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page21_nextpage},{t:this.page21_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page22_nextpage},{t:this.page22_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page23_nextpage},{t:this.page23_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page24_nextpage},{t:this.page24_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page25_nextpage},{t:this.page25_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page26_nextpage},{t:this.page26_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page27_nextpage},{t:this.page27_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page28_nextpage},{t:this.page28_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page29_nextpage},{t:this.page29_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page30_nextpage},{t:this.page30_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page31_nextpage},{t:this.page31_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page32_nextpage},{t:this.page32_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page33_nextpage},{t:this.page33_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page34_nextpage},{t:this.page34_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page35_nextpage},{t:this.page35_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page36_nextpage},{t:this.page36_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page37_nextpage},{t:this.page37_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page38_nextpage},{t:this.page38_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page39_nextpage},{t:this.page39_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page40_nextpage},{t:this.page40_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page41_nextpage},{t:this.page41_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page42_nextpage},{t:this.page42_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page43_nextpage},{t:this.page43_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page44_nextpage},{t:this.page44_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page45_nextpage},{t:this.page45_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page46_nextpage},{t:this.page46_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page47_nextpage},{t:this.page47_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page48_nextpage},{t:this.page48_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page49_nextpage},{t:this.page49_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page50_nextpage},{t:this.page50_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page51_nextpage},{t:this.page51_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page52_nextpage},{t:this.page52_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page53_nextpage},{t:this.page53_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page54_nextpage},{t:this.page54_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page55_nextpage},{t:this.page55_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page56_nextpage},{t:this.page56_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page57_nextpage},{t:this.page57_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page58_nextpage},{t:this.page58_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page59_nextpage},{t:this.page59_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page60_nextpage},{t:this.page60_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page61_nextpage},{t:this.page61_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page62_nextpage},{t:this.page62_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page63_nextpage},{t:this.page63_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page64_nextpage},{t:this.page64_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page65_nextpage},{t:this.page65_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page66_nextpage},{t:this.page66_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page67_nextpage},{t:this.page67_prevpage}]},9).to({state:[]},1).to({state:[]},1).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8b_nextpage},{t:this.page8b_prevpage}]},4).to({state:[]},1).to({state:[{t:this.page8_nextpage},{t:this.page8_prevpage}]},109).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage},{t:this.questionbtn2}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page5_nextpage},{t:this.page5_prevpage}]},10).to({state:[]},1).to({state:[{t:this.page6_nextpage},{t:this.page6_prevpage}]},13).to({state:[]},1).to({state:[{t:this.page7_nextpage},{t:this.page7_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page9_nextpage},{t:this.page9_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page10_nextpage},{t:this.page10_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page11_nextpage},{t:this.page11_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page12_nextpage},{t:this.page12_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page13_nextpage},{t:this.page13_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page14_nextpage},{t:this.page14_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page15_nextpage},{t:this.page15_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page16_nextpage},{t:this.page16_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page17_nextpage},{t:this.page17_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page18_nextpage},{t:this.page18_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page19_nextpage},{t:this.page19_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page20_nextpage},{t:this.page20_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page21_nextpage},{t:this.page21_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page22_nextpage},{t:this.page22_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page23_nextpage},{t:this.page23_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page24_nextpage},{t:this.page24_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page25_nextpage},{t:this.page25_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page26_nextpage},{t:this.page26_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page27_nextpage},{t:this.page27_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page28_nextpage},{t:this.page28_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page29_nextpage},{t:this.page29_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page30_nextpage},{t:this.page30_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page31_nextpage},{t:this.page31_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page32_nextpage},{t:this.page32_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page33_nextpage},{t:this.page33_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page34_nextpage},{t:this.page34_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page35_nextpage},{t:this.page35_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page36_nextpage},{t:this.page36_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page37_nextpage},{t:this.page37_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page38_nextpage},{t:this.page38_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page39_nextpage},{t:this.page39_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page40_nextpage},{t:this.page40_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page41_nextpage},{t:this.page41_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page42_nextpage},{t:this.page42_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page43_nextpage},{t:this.page43_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page44_nextpage},{t:this.page44_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page45_nextpage},{t:this.page45_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page46_nextpage},{t:this.page46_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page47_nextpage},{t:this.page47_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page48_nextpage},{t:this.page48_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page49_nextpage},{t:this.page49_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page50_nextpage},{t:this.page50_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page51_nextpage},{t:this.page51_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page52_nextpage},{t:this.page52_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page53_nextpage},{t:this.page53_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page54_nextpage},{t:this.page54_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page55_nextpage},{t:this.page55_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page56_nextpage},{t:this.page56_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page57_nextpage},{t:this.page57_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page58_nextpage},{t:this.page58_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page59_nextpage},{t:this.page59_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page60_nextpage},{t:this.page60_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page61_nextpage},{t:this.page61_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page62_nextpage},{t:this.page62_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page63_nextpage},{t:this.page63_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page64_nextpage},{t:this.page64_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page65_nextpage},{t:this.page65_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page66_nextpage},{t:this.page66_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page67_nextpage},{t:this.page67_prevpage}]},9).to({state:[]},1).to({state:[]},1).wait(130));
 
 	// Layer_15
 	this.instance = new lib.CachedBmp_1();
