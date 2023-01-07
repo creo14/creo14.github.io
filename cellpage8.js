@@ -3,24 +3,24 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"cellpage8_atlas_1", frames: [[1026,1529,950,71],[1026,1602,950,71],[1026,1675,950,71],[1730,0,206,137],[1542,0,186,186],[1938,139,88,167],[1730,139,206,137],[1750,278,66,128],[1542,278,206,137],[1938,0,108,137],[0,1292,676,235],[678,1292,676,235],[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[514,646,512,321],[1028,646,512,321],[0,969,512,321],[514,969,512,321],[1028,969,512,321],[0,1529,1024,149],[0,1680,1024,94]]},
-		{name:"cellpage8_atlas_2", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_3", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_4", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_5", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_6", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_7", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_8", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_9", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
-		{name:"cellpage8_atlas_10", frames: [[678,0,676,350],[1356,0,676,350],[678,352,676,350],[1356,352,676,350],[514,704,676,350],[0,1626,676,408],[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,1288,512,321],[1192,704,512,321],[678,1611,512,321],[1028,1288,512,321],[1192,1611,512,321],[514,1056,1024,230]]},
-		{name:"cellpage8_atlas_11", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_12", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_13", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_14", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_15", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_16", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_17", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
-		{name:"cellpage8_atlas_18", frames: [[802,643,676,523],[1026,0,676,523],[0,1245,676,466],[1480,525,512,540],[678,1496,512,540],[1192,1496,512,540],[0,643,800,600],[0,0,1024,641],[802,1168,1024,326]]},
+		{name:"cellpage8_atlas_1", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_2", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_3", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_4", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_5", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_6", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_7", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_8", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_9", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_10", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_11", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_12", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_13", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_14", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_15", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_16", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_17", frames: [[0,0,1024,1440]]},
+		{name:"cellpage8_atlas_18", frames: [[0,0,1024,1440]]},
 		{name:"cellpage8_atlas_19", frames: [[0,0,1024,1440]]},
 		{name:"cellpage8_atlas_20", frames: [[0,0,1024,1440]]},
 		{name:"cellpage8_atlas_21", frames: [[0,0,1024,1440]]},
@@ -79,24 +79,24 @@ lib.ssMetadata = [
 		{name:"cellpage8_atlas_74", frames: [[0,0,1024,1440]]},
 		{name:"cellpage8_atlas_75", frames: [[0,0,1024,1440]]},
 		{name:"cellpage8_atlas_76", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_77", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_78", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_79", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_80", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_81", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_82", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_83", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_84", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_85", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_86", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_87", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_88", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_89", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_90", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_91", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_92", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_93", frames: [[0,0,1024,1440]]},
-		{name:"cellpage8_atlas_94", frames: [[0,0,1024,1440]]}
+		{name:"cellpage8_atlas_77", frames: [[802,643,676,523],[1026,0,676,523],[0,1245,676,466],[1480,525,512,540],[678,1496,512,540],[1192,1496,512,540],[0,643,800,600],[0,0,1024,641],[802,1168,1024,326]]},
+		{name:"cellpage8_atlas_78", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_79", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_80", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_81", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_82", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_83", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_84", frames: [[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,0,512,540],[1028,0,512,540],[514,542,512,540],[514,1084,512,540],[1028,542,512,540],[1028,1084,512,540]]},
+		{name:"cellpage8_atlas_85", frames: [[678,0,676,350],[1356,0,676,350],[678,352,676,350],[1356,352,676,350],[514,704,676,350],[0,1626,676,408],[0,0,512,540],[0,542,512,540],[0,1084,512,540],[514,1288,512,321],[1192,704,512,321],[678,1611,512,321],[1028,1288,512,321],[1192,1611,512,321],[514,1056,1024,230]]},
+		{name:"cellpage8_atlas_86", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_87", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_88", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_89", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_90", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_91", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_92", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_93", frames: [[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[0,969,512,321],[0,1292,512,321],[0,1615,512,321],[514,646,512,321],[1028,646,512,321],[514,969,512,321],[514,1292,512,321],[514,1615,512,321],[1028,969,512,321],[1028,1292,512,321],[1028,1615,512,321]]},
+		{name:"cellpage8_atlas_94", frames: [[1026,1529,950,71],[1026,1602,950,71],[1026,1675,950,71],[1730,0,206,137],[1542,0,186,186],[1938,139,88,167],[1730,139,206,137],[1750,278,66,128],[1542,278,206,137],[1938,0,108,137],[0,1292,676,235],[678,1292,676,235],[0,0,512,321],[514,0,512,321],[1028,0,512,321],[0,323,512,321],[514,323,512,321],[1028,323,512,321],[0,646,512,321],[514,646,512,321],[1028,646,512,321],[0,969,512,321],[514,969,512,321],[1028,969,512,321],[0,1529,1024,149],[0,1680,1024,94]]}
 ];
 
 
@@ -121,2331 +121,2331 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_21 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_20 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_19 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_18 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_17 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_16 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_15 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_13 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_12 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_11 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_10 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._005 = function() {
 	this.initialize(ss["cellpage8_atlas_94"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._006 = function() {
-	this.initialize(ss["cellpage8_atlas_93"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._007 = function() {
-	this.initialize(ss["cellpage8_atlas_92"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_19 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._009 = function() {
-	this.initialize(ss["cellpage8_atlas_91"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._010 = function() {
-	this.initialize(ss["cellpage8_atlas_90"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._011 = function() {
-	this.initialize(ss["cellpage8_atlas_89"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._012 = function() {
-	this.initialize(ss["cellpage8_atlas_88"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._013 = function() {
-	this.initialize(ss["cellpage8_atlas_87"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._014 = function() {
-	this.initialize(ss["cellpage8_atlas_86"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._015 = function() {
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
 	this.initialize(ss["cellpage8_atlas_85"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._016 = function() {
-	this.initialize(ss["cellpage8_atlas_84"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._017 = function() {
-	this.initialize(ss["cellpage8_atlas_83"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._018 = function() {
-	this.initialize(ss["cellpage8_atlas_82"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._019 = function() {
-	this.initialize(ss["cellpage8_atlas_81"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._020 = function() {
-	this.initialize(ss["cellpage8_atlas_80"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._021 = function() {
-	this.initialize(ss["cellpage8_atlas_79"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._022 = function() {
-	this.initialize(ss["cellpage8_atlas_78"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._023 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["cellpage8_atlas_77"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_8 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._005 = function() {
+	this.initialize(ss["cellpage8_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._006 = function() {
+	this.initialize(ss["cellpage8_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._007 = function() {
+	this.initialize(ss["cellpage8_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._009 = function() {
+	this.initialize(ss["cellpage8_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._010 = function() {
+	this.initialize(ss["cellpage8_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._011 = function() {
+	this.initialize(ss["cellpage8_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._012 = function() {
+	this.initialize(ss["cellpage8_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._013 = function() {
+	this.initialize(ss["cellpage8_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._014 = function() {
+	this.initialize(ss["cellpage8_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._015 = function() {
+	this.initialize(ss["cellpage8_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._016 = function() {
+	this.initialize(ss["cellpage8_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._017 = function() {
+	this.initialize(ss["cellpage8_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._018 = function() {
+	this.initialize(ss["cellpage8_atlas_13"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._019 = function() {
+	this.initialize(ss["cellpage8_atlas_14"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._020 = function() {
+	this.initialize(ss["cellpage8_atlas_15"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._021 = function() {
+	this.initialize(ss["cellpage8_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._022 = function() {
+	this.initialize(ss["cellpage8_atlas_17"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._023 = function() {
+	this.initialize(ss["cellpage8_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib._024 = function() {
-	this.initialize(ss["cellpage8_atlas_76"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._025 = function() {
-	this.initialize(ss["cellpage8_atlas_75"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._026 = function() {
-	this.initialize(ss["cellpage8_atlas_74"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._027 = function() {
-	this.initialize(ss["cellpage8_atlas_73"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._028 = function() {
-	this.initialize(ss["cellpage8_atlas_72"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._029 = function() {
-	this.initialize(ss["cellpage8_atlas_71"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._030 = function() {
-	this.initialize(ss["cellpage8_atlas_70"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._031 = function() {
-	this.initialize(ss["cellpage8_atlas_69"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._032 = function() {
-	this.initialize(ss["cellpage8_atlas_68"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._033 = function() {
-	this.initialize(ss["cellpage8_atlas_67"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._034 = function() {
-	this.initialize(ss["cellpage8_atlas_66"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._035 = function() {
-	this.initialize(ss["cellpage8_atlas_65"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._036 = function() {
-	this.initialize(ss["cellpage8_atlas_64"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._037 = function() {
-	this.initialize(ss["cellpage8_atlas_63"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._038 = function() {
-	this.initialize(ss["cellpage8_atlas_62"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._039 = function() {
-	this.initialize(ss["cellpage8_atlas_61"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._040 = function() {
-	this.initialize(ss["cellpage8_atlas_60"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._041 = function() {
-	this.initialize(ss["cellpage8_atlas_59"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._042 = function() {
-	this.initialize(ss["cellpage8_atlas_58"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._043 = function() {
-	this.initialize(ss["cellpage8_atlas_57"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._044 = function() {
-	this.initialize(ss["cellpage8_atlas_56"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._045 = function() {
-	this.initialize(ss["cellpage8_atlas_55"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._046 = function() {
-	this.initialize(ss["cellpage8_atlas_54"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._047 = function() {
-	this.initialize(ss["cellpage8_atlas_53"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._048 = function() {
-	this.initialize(ss["cellpage8_atlas_52"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._049 = function() {
-	this.initialize(ss["cellpage8_atlas_51"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._050 = function() {
-	this.initialize(ss["cellpage8_atlas_50"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._051 = function() {
-	this.initialize(ss["cellpage8_atlas_49"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._052 = function() {
-	this.initialize(ss["cellpage8_atlas_48"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._053 = function() {
-	this.initialize(ss["cellpage8_atlas_47"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._054 = function() {
-	this.initialize(ss["cellpage8_atlas_46"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._055 = function() {
-	this.initialize(ss["cellpage8_atlas_45"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._056 = function() {
-	this.initialize(ss["cellpage8_atlas_44"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._057 = function() {
-	this.initialize(ss["cellpage8_atlas_43"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._058 = function() {
-	this.initialize(ss["cellpage8_atlas_42"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._059 = function() {
-	this.initialize(ss["cellpage8_atlas_41"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._060 = function() {
-	this.initialize(ss["cellpage8_atlas_40"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._061 = function() {
-	this.initialize(ss["cellpage8_atlas_39"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._062 = function() {
-	this.initialize(ss["cellpage8_atlas_38"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._063 = function() {
-	this.initialize(ss["cellpage8_atlas_37"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._064 = function() {
-	this.initialize(ss["cellpage8_atlas_36"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._065 = function() {
-	this.initialize(ss["cellpage8_atlas_35"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._066 = function() {
-	this.initialize(ss["cellpage8_atlas_34"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._067 = function() {
-	this.initialize(ss["cellpage8_atlas_33"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.blankpage = function() {
-	this.initialize(ss["cellpage8_atlas_32"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00062 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00063 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00064 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00065 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00066 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00067 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00068 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00069 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00070 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00071 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00072 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00073 = function() {
-	this.initialize(ss["cellpage8_atlas_17"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00074 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00075 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00076 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00077 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00078 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00079 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00080 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00081 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00082 = function() {
-	this.initialize(ss["cellpage8_atlas_16"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00083 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00084 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00085 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00086 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00087 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00088 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00089 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00090 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00091 = function() {
-	this.initialize(ss["cellpage8_atlas_15"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00092 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00093 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00094 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00095 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00096 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00097 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00098 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00099 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00100 = function() {
-	this.initialize(ss["cellpage8_atlas_14"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00101 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00102 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00103 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00104 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00105 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00106 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00107 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00108 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00109 = function() {
-	this.initialize(ss["cellpage8_atlas_13"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00110 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00111 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00112 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00113 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00114 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00115 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00116 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00117 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00118 = function() {
-	this.initialize(ss["cellpage8_atlas_12"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00119 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00120 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00121 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00122 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00123 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00124 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00125 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00126 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00127 = function() {
-	this.initialize(ss["cellpage8_atlas_11"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00128 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00129 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.coverpageseq_00130 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PaanoGamitin = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page1 = function() {
-	this.initialize(ss["cellpage8_atlas_31"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page2 = function() {
-	this.initialize(ss["cellpage8_atlas_30"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page3 = function() {
-	this.initialize(ss["cellpage8_atlas_29"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page4 = function() {
-	this.initialize(ss["cellpage8_atlas_28"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00000 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00001 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00002 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00003 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00004 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00005 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00006 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00007 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00008 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00009 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00010 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00011 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00012 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00013 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00014 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00015 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00016 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00017 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00018 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00019 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00020 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00021 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00022 = function() {
-	this.initialize(ss["cellpage8_atlas_9"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00023 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00024 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00025 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00026 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00027 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00028 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00029 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00030 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00031 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00032 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00033 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00034 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00035 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00036 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00037 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00038 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00039 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00040 = function() {
-	this.initialize(ss["cellpage8_atlas_8"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00041 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00042 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00043 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00044 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00045 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00046 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00047 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00048 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00049 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00050 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00051 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00052 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00053 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00054 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00055 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00056 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00057 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00058 = function() {
-	this.initialize(ss["cellpage8_atlas_7"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00059 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00060 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00061 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00062 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00063 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00064 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00065 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00066 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00067 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00068 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00069 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00070 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00071 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00072 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00073 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00074 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00075 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00076 = function() {
-	this.initialize(ss["cellpage8_atlas_6"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00077 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00078 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00079 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00080 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00081 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00082 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00083 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00084 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00085 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00086 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00087 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00088 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00089 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00090 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00091 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00092 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00093 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00094 = function() {
-	this.initialize(ss["cellpage8_atlas_5"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00095 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00096 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00097 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00098 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00099 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00100 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00101 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00102 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00103 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00104 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00105 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00106 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00107 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00108 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00109 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00110 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00111 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00112 = function() {
-	this.initialize(ss["cellpage8_atlas_4"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00113 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00114 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00115 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00116 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00117 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00118 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00119 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00120 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00121 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00122 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00123 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00124 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00125 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00126 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00127 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00128 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00129 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00130 = function() {
-	this.initialize(ss["cellpage8_atlas_3"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00131 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00132 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00133 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00134 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00135 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00136 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00137 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00138 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00139 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00140 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00141 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00142 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00143 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00144 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00145 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00146 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00147 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00148 = function() {
-	this.initialize(ss["cellpage8_atlas_2"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00149 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00150 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00151 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00152 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00153 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00154 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00155 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00156 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00157 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00158 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00159 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.page8_intro_00160 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00000 = function() {
-	this.initialize(ss["cellpage8_atlas_27"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00001 = function() {
-	this.initialize(ss["cellpage8_atlas_26"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00002 = function() {
-	this.initialize(ss["cellpage8_atlas_25"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00003 = function() {
-	this.initialize(ss["cellpage8_atlas_24"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00004 = function() {
-	this.initialize(ss["cellpage8_atlas_23"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00005 = function() {
-	this.initialize(ss["cellpage8_atlas_22"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00006 = function() {
-	this.initialize(ss["cellpage8_atlas_21"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.pageflip2_00007 = function() {
-	this.initialize(ss["cellpage8_atlas_20"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.SampleCoveralpha = function() {
 	this.initialize(ss["cellpage8_atlas_19"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib._025 = function() {
+	this.initialize(ss["cellpage8_atlas_20"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._026 = function() {
+	this.initialize(ss["cellpage8_atlas_21"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._027 = function() {
+	this.initialize(ss["cellpage8_atlas_22"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._028 = function() {
+	this.initialize(ss["cellpage8_atlas_23"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._029 = function() {
+	this.initialize(ss["cellpage8_atlas_24"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._030 = function() {
+	this.initialize(ss["cellpage8_atlas_25"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._031 = function() {
+	this.initialize(ss["cellpage8_atlas_26"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._032 = function() {
+	this.initialize(ss["cellpage8_atlas_27"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._033 = function() {
+	this.initialize(ss["cellpage8_atlas_28"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._034 = function() {
+	this.initialize(ss["cellpage8_atlas_29"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._035 = function() {
+	this.initialize(ss["cellpage8_atlas_30"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._036 = function() {
+	this.initialize(ss["cellpage8_atlas_31"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._037 = function() {
+	this.initialize(ss["cellpage8_atlas_32"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._038 = function() {
+	this.initialize(ss["cellpage8_atlas_33"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._039 = function() {
+	this.initialize(ss["cellpage8_atlas_34"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._040 = function() {
+	this.initialize(ss["cellpage8_atlas_35"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._041 = function() {
+	this.initialize(ss["cellpage8_atlas_36"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._042 = function() {
+	this.initialize(ss["cellpage8_atlas_37"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._043 = function() {
+	this.initialize(ss["cellpage8_atlas_38"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._044 = function() {
+	this.initialize(ss["cellpage8_atlas_39"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._045 = function() {
+	this.initialize(ss["cellpage8_atlas_40"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._046 = function() {
+	this.initialize(ss["cellpage8_atlas_41"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._047 = function() {
+	this.initialize(ss["cellpage8_atlas_42"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._048 = function() {
+	this.initialize(ss["cellpage8_atlas_43"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._049 = function() {
+	this.initialize(ss["cellpage8_atlas_44"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._050 = function() {
+	this.initialize(ss["cellpage8_atlas_45"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._051 = function() {
+	this.initialize(ss["cellpage8_atlas_46"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._052 = function() {
+	this.initialize(ss["cellpage8_atlas_47"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._053 = function() {
+	this.initialize(ss["cellpage8_atlas_48"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._054 = function() {
+	this.initialize(ss["cellpage8_atlas_49"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._055 = function() {
+	this.initialize(ss["cellpage8_atlas_50"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._056 = function() {
+	this.initialize(ss["cellpage8_atlas_51"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._057 = function() {
+	this.initialize(ss["cellpage8_atlas_52"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._058 = function() {
+	this.initialize(ss["cellpage8_atlas_53"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._059 = function() {
+	this.initialize(ss["cellpage8_atlas_54"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._060 = function() {
+	this.initialize(ss["cellpage8_atlas_55"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._061 = function() {
+	this.initialize(ss["cellpage8_atlas_56"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._062 = function() {
+	this.initialize(ss["cellpage8_atlas_57"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._063 = function() {
+	this.initialize(ss["cellpage8_atlas_58"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._064 = function() {
+	this.initialize(ss["cellpage8_atlas_59"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._065 = function() {
+	this.initialize(ss["cellpage8_atlas_60"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._066 = function() {
+	this.initialize(ss["cellpage8_atlas_61"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._067 = function() {
+	this.initialize(ss["cellpage8_atlas_62"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.blankpage = function() {
+	this.initialize(ss["cellpage8_atlas_63"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00062 = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00063 = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00064 = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00065 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00066 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00067 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00068 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00069 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00070 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00071 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00072 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00073 = function() {
+	this.initialize(ss["cellpage8_atlas_78"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00074 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00075 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00076 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00077 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00078 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00079 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00080 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00081 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00082 = function() {
+	this.initialize(ss["cellpage8_atlas_79"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00083 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00084 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00085 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00086 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00087 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00088 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00089 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00090 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00091 = function() {
+	this.initialize(ss["cellpage8_atlas_80"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00092 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00093 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00094 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00095 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00096 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00097 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00098 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00099 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00100 = function() {
+	this.initialize(ss["cellpage8_atlas_81"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00101 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00102 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00103 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00104 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00105 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00106 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00107 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00108 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00109 = function() {
+	this.initialize(ss["cellpage8_atlas_82"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00110 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00111 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00112 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00113 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00114 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00115 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00116 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00117 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00118 = function() {
+	this.initialize(ss["cellpage8_atlas_83"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00119 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00120 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00121 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00122 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00123 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00124 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00125 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00126 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00127 = function() {
+	this.initialize(ss["cellpage8_atlas_84"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00128 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00129 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.coverpageseq_00130 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PaanoGamitin = function() {
+	this.initialize(ss["cellpage8_atlas_77"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page1 = function() {
+	this.initialize(ss["cellpage8_atlas_64"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page2 = function() {
+	this.initialize(ss["cellpage8_atlas_65"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page3 = function() {
+	this.initialize(ss["cellpage8_atlas_66"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page4 = function() {
+	this.initialize(ss["cellpage8_atlas_67"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00000 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00001 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00002 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00003 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00004 = function() {
+	this.initialize(ss["cellpage8_atlas_85"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00005 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00006 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00007 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00008 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00009 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00010 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00011 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00012 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00013 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00014 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00015 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00016 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00017 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00018 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00019 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00020 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00021 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00022 = function() {
+	this.initialize(ss["cellpage8_atlas_86"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00023 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00024 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00025 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00026 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00027 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00028 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00029 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00030 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00031 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00032 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00033 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00034 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00035 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00036 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00037 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00038 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00039 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00040 = function() {
+	this.initialize(ss["cellpage8_atlas_87"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00041 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00042 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00043 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00044 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00045 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00046 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00047 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00048 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00049 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00050 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00051 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00052 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00053 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00054 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00055 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00056 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00057 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00058 = function() {
+	this.initialize(ss["cellpage8_atlas_88"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00059 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00060 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00061 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00062 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00063 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00064 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00065 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00066 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00067 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00068 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00069 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00070 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00071 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00072 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00073 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00074 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00075 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00076 = function() {
+	this.initialize(ss["cellpage8_atlas_89"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00077 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00078 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00079 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00080 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00081 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00082 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00083 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00084 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00085 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00086 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00087 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00088 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00089 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00090 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00091 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00092 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00093 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00094 = function() {
+	this.initialize(ss["cellpage8_atlas_90"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00095 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00096 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00097 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00098 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00099 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00100 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00101 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00102 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00103 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00104 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00105 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00106 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00107 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00108 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00109 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00110 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00111 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00112 = function() {
+	this.initialize(ss["cellpage8_atlas_91"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00113 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00114 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00115 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00116 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00117 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00118 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00119 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00120 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00121 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00122 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00123 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00124 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00125 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00126 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00127 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00128 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00129 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00130 = function() {
+	this.initialize(ss["cellpage8_atlas_92"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00131 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00132 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00133 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00134 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00135 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00136 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00137 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00138 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00139 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00140 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00141 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00142 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00143 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00144 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00145 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00146 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00147 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00148 = function() {
+	this.initialize(ss["cellpage8_atlas_93"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00149 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00150 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00151 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00152 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00153 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00154 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00155 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00156 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00157 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00158 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00159 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.page8_intro_00160 = function() {
+	this.initialize(ss["cellpage8_atlas_94"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00000 = function() {
+	this.initialize(ss["cellpage8_atlas_68"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00001 = function() {
+	this.initialize(ss["cellpage8_atlas_69"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00002 = function() {
+	this.initialize(ss["cellpage8_atlas_70"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00003 = function() {
+	this.initialize(ss["cellpage8_atlas_71"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00004 = function() {
+	this.initialize(ss["cellpage8_atlas_72"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00005 = function() {
+	this.initialize(ss["cellpage8_atlas_73"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00006 = function() {
+	this.initialize(ss["cellpage8_atlas_74"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.pageflip2_00007 = function() {
+	this.initialize(ss["cellpage8_atlas_75"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SampleCoveralpha = function() {
+	this.initialize(ss["cellpage8_atlas_76"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.SamplePageweb_01 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
+	this.initialize(ss["cellpage8_atlas_94"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SamplePageweb_02 = function() {
-	this.initialize(ss["cellpage8_atlas_10"]);
+	this.initialize(ss["cellpage8_atlas_85"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SamplePageweb_03 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
+	this.initialize(ss["cellpage8_atlas_77"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SamplePageweb_04 = function() {
-	this.initialize(ss["cellpage8_atlas_18"]);
+	this.initialize(ss["cellpage8_atlas_77"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.SamplePageweb_05 = function() {
-	this.initialize(ss["cellpage8_atlas_1"]);
+	this.initialize(ss["cellpage8_atlas_94"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -4427,6 +4427,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(125);
 		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn2b.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage2.html");
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page3btnto57.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_202.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_202()
+		{
+			this.gotoAndPlay(670);
+		}
 	}
 	this.frame_153 = function() {
 		/* Stop at This Frame
@@ -4509,6 +4541,38 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_53()
 		{
 			this.gotoAndPlay(170);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page5btnto58.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_201.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_201()
+		{
+			this.gotoAndPlay(680);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn5.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage5.html");
 		}
 	}
 	this.frame_168 = function() {
@@ -4615,6 +4679,21 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_48()
 		{
 			this.gotoAndPlay(3);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn7.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage7.html");
 		}
 	}
 	this.frame_198 = function() {
@@ -4862,6 +4941,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(250);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page14btnto58.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_200.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_200()
+		{
+			this.gotoAndPlay(680);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn14.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage14.html");
+		}
 	}
 	this.frame_258 = function() {
 		/* Stop at This Frame
@@ -4903,6 +5014,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(260);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page15btnto58.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_199.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_199()
+		{
+			this.gotoAndPlay(680);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn15.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage15.html");
+		}
 	}
 	this.frame_268 = function() {
 		/* Stop at This Frame
@@ -4943,6 +5086,38 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_69()
 		{
 			this.gotoAndPlay(270);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page16btnto58.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_198.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_198()
+		{
+			this.gotoAndPlay(680);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn16.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage16.html");
 		}
 	}
 	this.frame_278 = function() {
@@ -5066,6 +5241,38 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_75()
 		{
 			this.gotoAndPlay(300);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page19btnto59.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_197.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_197()
+		{
+			this.gotoAndPlay(690);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn19.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage19.html");
 		}
 	}
 	this.frame_308 = function() {
@@ -5231,6 +5438,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(340);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page23btnto59.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_196.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_196()
+		{
+			this.gotoAndPlay(690);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn23.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage23.html");
+		}
 	}
 	this.frame_348 = function() {
 		/* Stop at This Frame
@@ -5313,6 +5552,21 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(360);
 		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn25.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage25.html");
+		}
 	}
 	this.frame_368 = function() {
 		/* Stop at This Frame
@@ -5354,6 +5608,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(370);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page26btnto59.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_195.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_195()
+		{
+			this.gotoAndPlay(690);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn26.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage26.html");
+		}
 	}
 	this.frame_378 = function() {
 		/* Stop at This Frame
@@ -5394,6 +5680,21 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_91()
 		{
 			this.gotoAndPlay(380);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn27.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage27.html");
 		}
 	}
 	this.frame_388 = function() {
@@ -5600,6 +5901,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(430);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page32btnto60.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_194.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_194()
+		{
+			this.gotoAndPlay(700);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn32.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage32.html");
+		}
 	}
 	this.frame_438 = function() {
 		/* Stop at This Frame
@@ -5805,6 +6138,21 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(480);
 		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn37.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage37.html");
+		}
 	}
 	this.frame_488 = function() {
 		/* Stop at This Frame
@@ -5845,6 +6193,38 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_113()
 		{
 			this.gotoAndPlay(490);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page38btnto60.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_193.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_193()
+		{
+			this.gotoAndPlay(700);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn38.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage38.html");
 		}
 	}
 	this.frame_498 = function() {
@@ -6174,6 +6554,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(570);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page46btnto61.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_192.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_192()
+		{
+			this.gotoAndPlay(710);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn46.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage46.html");
+		}
 	}
 	this.frame_578 = function() {
 		/* Stop at This Frame
@@ -6214,6 +6626,21 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_131()
 		{
 			this.gotoAndPlay(580);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn47.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage47.html");
 		}
 	}
 	this.frame_588 = function() {
@@ -6420,6 +6847,38 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(630);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page52btnto61.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_191.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_191()
+		{
+			this.gotoAndPlay(710);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn52.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage52.html");
+		}
 	}
 	this.frame_638 = function() {
 		/* Stop at This Frame
@@ -6460,6 +6919,53 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_143()
 		{
 			this.gotoAndPlay(640);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page52btnto61.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_190.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_190()
+		{
+			this.gotoAndPlay(710);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn53a.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage53a.html");
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn53b.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage53b.html");
 		}
 	}
 	this.frame_648 = function() {
@@ -6543,6 +7049,21 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(660);
 		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn55.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage55.html");
+		}
 	}
 	this.frame_668 = function() {
 		/* Stop at This Frame
@@ -6583,6 +7104,36 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_149()
 		{
 			this.gotoAndPlay(670);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn56a.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage56a.html");
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn56b.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage56b.html");
 		}
 	}
 	this.frame_678 = function() {
@@ -6625,6 +7176,55 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(680);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn2.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_188.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_188()
+		{
+			this.gotoAndPlay(125);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.page57btnto62.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_189.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_189()
+		{
+			this.gotoAndPlay(720);
+		}
+		
+		
+		/* Click to Go to Web Page
+		Clicking on the specified symbol instance loads the URL in a new browser window.
+		
+		Instructions:
+		1. Replace http://www.adobe.com with the desired URL address.
+		   Keep the quotation marks ("").
+		*/
+		
+		this.questionbtn57.addEventListener("click", fl_ClickToGoToWebPage_2);
+		
+		function fl_ClickToGoToWebPage_2() {
+			window.open("questionspage56b.html");
+		}
 	}
 	this.frame_688 = function() {
 		/* Stop at This Frame
@@ -6665,6 +7265,74 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_153()
 		{
 			this.gotoAndPlay(690);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn16.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_184.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_184()
+		{
+			this.gotoAndPlay(260);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn15.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_185.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_185()
+		{
+			this.gotoAndPlay(250);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn13.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_186.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_186()
+		{
+			this.gotoAndPlay(230);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_187.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_187()
+		{
+			this.gotoAndPlay(155);
 		}
 	}
 	this.frame_698 = function() {
@@ -6707,6 +7375,74 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(700);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn25.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_180.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_180()
+		{
+			this.gotoAndPlay(350);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn23.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_181.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_181()
+		{
+			this.gotoAndPlay(330);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn19.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_182.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_182()
+		{
+			this.gotoAndPlay(290);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn16b.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_183.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_183()
+		{
+			this.gotoAndPlay(260);
+		}
 	}
 	this.frame_708 = function() {
 		/* Stop at This Frame
@@ -6747,6 +7483,40 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_157()
 		{
 			this.gotoAndPlay(710);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn37.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_178.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_178()
+		{
+			this.gotoAndPlay(470);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn32.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_179.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_179()
+		{
+			this.gotoAndPlay(420);
 		}
 	}
 	this.frame_718 = function() {
@@ -6789,6 +7559,57 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(720);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn53.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_175.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_175()
+		{
+			this.gotoAndPlay(630);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn52.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_176.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_176()
+		{
+			this.gotoAndPlay(620);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn46.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_177.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_177()
+		{
+			this.gotoAndPlay(560);
+		}
 	}
 	this.frame_728 = function() {
 		/* Stop at This Frame
@@ -6830,6 +7651,40 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndPlay(730);
 		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn55.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_173.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_173()
+		{
+			this.gotoAndPlay(650);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn53b.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_174.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_174()
+		{
+			this.gotoAndPlay(630);
+		}
 	}
 	this.frame_738 = function() {
 		/* Stop at This Frame
@@ -6870,6 +7725,23 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndPlayFromFrame_163()
 		{
 			this.gotoAndPlay(740);
+		}
+		
+		
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.answerkeybtn55b.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_172.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame_172()
+		{
+			this.gotoAndPlay(650);
 		}
 	}
 	this.frame_748 = function() {
@@ -7086,6 +7958,16 @@ if (reversed == null) { reversed = false; }
 	this.page2_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page2_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page3btnto57 = new lib.questionbtn();
+	this.page3btnto57.name = "page3btnto57";
+	this.page3btnto57.setTransform(238.9,927.55,0.3188,0.0247,0,0,0,0.1,0);
+	new cjs.ButtonHelper(this.page3btnto57, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn2b = new lib.questionbtn();
+	this.questionbtn2b.name = "questionbtn2b";
+	this.questionbtn2b.setTransform(498.6,523.05,1,0.6802);
+	new cjs.ButtonHelper(this.questionbtn2b, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page3_prevpage = new lib.nextpage();
 	this.page3_prevpage.name = "page3_prevpage";
 	this.page3_prevpage.setTransform(53.4,718.8,1,1,180,0,0,27.7,684.8);
@@ -7106,6 +7988,16 @@ if (reversed == null) { reversed = false; }
 	this.page4_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page4_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page5btnto58 = new lib.questionbtn();
+	this.page5btnto58.name = "page5btnto58";
+	this.page5btnto58.setTransform(579.75,752.8,0.3188,0.0247,0,0,0,0.1,0);
+	new cjs.ButtonHelper(this.page5btnto58, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn5 = new lib.questionbtn();
+	this.questionbtn5.name = "questionbtn5";
+	this.questionbtn5.setTransform(509.65,614.95,1.2261,0.1975,0,0,0,0.1,0);
+	new cjs.ButtonHelper(this.questionbtn5, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page5_prevpage = new lib.nextpage();
 	this.page5_prevpage.name = "page5_prevpage";
 	this.page5_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7125,6 +8017,11 @@ if (reversed == null) { reversed = false; }
 	this.page6_nextpage.name = "page6_nextpage";
 	this.page6_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page6_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.questionbtn7 = new lib.questionbtn();
+	this.questionbtn7.name = "questionbtn7";
+	this.questionbtn7.setTransform(506.4,487.15,1.2613,0.1824,0,0,0,0.4,0);
+	new cjs.ButtonHelper(this.questionbtn7, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page7_prevpage = new lib.nextpage();
 	this.page7_prevpage.name = "page7_prevpage";
@@ -7186,6 +8083,16 @@ if (reversed == null) { reversed = false; }
 	this.page13_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page13_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page14btnto58 = new lib.questionbtn();
+	this.page14btnto58.name = "page14btnto58";
+	this.page14btnto58.setTransform(692.25,427.55,0.3188,0.0247,0,0,0,0.1,0);
+	new cjs.ButtonHelper(this.page14btnto58, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn14 = new lib.questionbtn();
+	this.questionbtn14.name = "questionbtn14";
+	this.questionbtn14.setTransform(511.25,280.9,1.1854,0.2343,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.questionbtn14, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page14_prevpage = new lib.nextpage();
 	this.page14_prevpage.name = "page14_prevpage";
 	this.page14_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7196,6 +8103,16 @@ if (reversed == null) { reversed = false; }
 	this.page14_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page14_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page15btnto58 = new lib.questionbtn();
+	this.page15btnto58.name = "page15btnto58";
+	this.page15btnto58.setTransform(833.65,1310.8,0.2121,0.0247,0,0,0,0.2,0);
+	new cjs.ButtonHelper(this.page15btnto58, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn15 = new lib.questionbtn();
+	this.questionbtn15.name = "questionbtn15";
+	this.questionbtn15.setTransform(508.15,1199.6,1.2366,0.1517,0,0,0,0.3,0);
+	new cjs.ButtonHelper(this.questionbtn15, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page15_prevpage = new lib.nextpage();
 	this.page15_prevpage.name = "page15_prevpage";
 	this.page15_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7205,6 +8122,16 @@ if (reversed == null) { reversed = false; }
 	this.page15_nextpage.name = "page15_nextpage";
 	this.page15_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page15_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.page16btnto58 = new lib.questionbtn();
+	this.page16btnto58.name = "page16btnto58";
+	this.page16btnto58.setTransform(646,1160.45,0.4171,0.0247,0,0,0,0.4,0);
+	new cjs.ButtonHelper(this.page16btnto58, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn16 = new lib.questionbtn();
+	this.questionbtn16.name = "questionbtn16";
+	this.questionbtn16.setTransform(506.85,843.8,1.1063,0.514,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.questionbtn16, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page16_prevpage = new lib.nextpage();
 	this.page16_prevpage.name = "page16_prevpage";
@@ -7235,6 +8162,16 @@ if (reversed == null) { reversed = false; }
 	this.page18_nextpage.name = "page18_nextpage";
 	this.page18_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page18_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.page19btnto59 = new lib.questionbtn();
+	this.page19btnto59.name = "page19btnto59";
+	this.page19btnto59.setTransform(580.35,430.9,0.3276,0.0247,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.page19btnto59, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn19 = new lib.questionbtn();
+	this.questionbtn19.name = "questionbtn19";
+	this.questionbtn19.setTransform(512.35,297.1,1.2343,0.1931,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.questionbtn19, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page19_prevpage = new lib.nextpage();
 	this.page19_prevpage.name = "page19_prevpage";
@@ -7276,6 +8213,16 @@ if (reversed == null) { reversed = false; }
 	this.page22_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page22_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page23btnto59 = new lib.questionbtn();
+	this.page23btnto59.name = "page23btnto59";
+	this.page23btnto59.setTransform(580.35,1357,0.3276,0.0247,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.page23btnto59, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn23 = new lib.questionbtn();
+	this.questionbtn23.name = "questionbtn23";
+	this.questionbtn23.setTransform(513.9,891.9,1.2343,0.1931,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.questionbtn23, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page23_prevpage = new lib.nextpage();
 	this.page23_prevpage.name = "page23_prevpage";
 	this.page23_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7296,6 +8243,11 @@ if (reversed == null) { reversed = false; }
 	this.page24_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page24_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.questionbtn25 = new lib.questionbtn();
+	this.questionbtn25.name = "questionbtn25";
+	this.questionbtn25.setTransform(512,1127.35,1.2051,0.374,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.questionbtn25, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page25_prevpage = new lib.nextpage();
 	this.page25_prevpage.name = "page25_prevpage";
 	this.page25_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7306,6 +8258,16 @@ if (reversed == null) { reversed = false; }
 	this.page25_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page25_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page26btnto59 = new lib.questionbtn();
+	this.page26btnto59.name = "page26btnto59";
+	this.page26btnto59.setTransform(605.8,491.35,0.3276,0.0247,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.page26btnto59, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn26 = new lib.questionbtn();
+	this.questionbtn26.name = "questionbtn26";
+	this.questionbtn26.setTransform(533.05,277.75,1.1644,0.3444,0,0,0,0.6,0);
+	new cjs.ButtonHelper(this.questionbtn26, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page26_prevpage = new lib.nextpage();
 	this.page26_prevpage.name = "page26_prevpage";
 	this.page26_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7315,6 +8277,11 @@ if (reversed == null) { reversed = false; }
 	this.page26_nextpage.name = "page26_nextpage";
 	this.page26_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page26_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.questionbtn27 = new lib.questionbtn();
+	this.questionbtn27.name = "questionbtn27";
+	this.questionbtn27.setTransform(609.8,963.5,0.3386,0.1597,0,0,0,0.8,0);
+	new cjs.ButtonHelper(this.questionbtn27, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page27_prevpage = new lib.nextpage();
 	this.page27_prevpage.name = "page27_prevpage";
@@ -7366,6 +8333,16 @@ if (reversed == null) { reversed = false; }
 	this.page31_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page31_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page32btnto60 = new lib.questionbtn();
+	this.page32btnto60.name = "page32btnto60";
+	this.page32btnto60.setTransform(601.45,725.55,0.3276,0.0247,0,0,0,0.5,0);
+	new cjs.ButtonHelper(this.page32btnto60, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn32 = new lib.questionbtn();
+	this.questionbtn32.name = "questionbtn32";
+	this.questionbtn32.setTransform(531.45,441.1,1.1698,0.4774,0,0,0,0.8,0.4);
+	new cjs.ButtonHelper(this.questionbtn32, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page32_prevpage = new lib.nextpage();
 	this.page32_prevpage.name = "page32_prevpage";
 	this.page32_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7416,6 +8393,11 @@ if (reversed == null) { reversed = false; }
 	this.page36_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page36_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.questionbtn37 = new lib.questionbtn();
+	this.questionbtn37.name = "questionbtn37";
+	this.questionbtn37.setTransform(516.05,1100,0.8616,0.4923,0,0,0,0.8,0.4);
+	new cjs.ButtonHelper(this.questionbtn37, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page37_prevpage = new lib.nextpage();
 	this.page37_prevpage.name = "page37_prevpage";
 	this.page37_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7425,6 +8407,16 @@ if (reversed == null) { reversed = false; }
 	this.page37_nextpage.name = "page37_nextpage";
 	this.page37_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page37_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.page38btnto60 = new lib.questionbtn();
+	this.page38btnto60.name = "page38btnto60";
+	this.page38btnto60.setTransform(646.65,808.95,0.2453,0.0247,0,0,0,0.6,0);
+	new cjs.ButtonHelper(this.page38btnto60, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn38 = new lib.questionbtn();
+	this.questionbtn38.name = "questionbtn38";
+	this.questionbtn38.setTransform(552.85,473.2,1.1012,0.5883,0,0,0,1.1,0.7);
+	new cjs.ButtonHelper(this.questionbtn38, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page38_prevpage = new lib.nextpage();
 	this.page38_prevpage.name = "page38_prevpage";
@@ -7506,6 +8498,16 @@ if (reversed == null) { reversed = false; }
 	this.page45_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page45_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page46btnto61 = new lib.questionbtn();
+	this.page46btnto61.name = "page46btnto61";
+	this.page46btnto61.setTransform(603.25,1368.95,0.3163,0.0247,0,0,0,1,0);
+	new cjs.ButtonHelper(this.page46btnto61, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn46 = new lib.questionbtn();
+	this.questionbtn46.name = "questionbtn46";
+	this.questionbtn46.setTransform(514.35,807.35,1.1593,0.9768,0,0,0,1.2,0.8);
+	new cjs.ButtonHelper(this.questionbtn46, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page46_prevpage = new lib.nextpage();
 	this.page46_prevpage.name = "page46_prevpage";
 	this.page46_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7515,6 +8517,11 @@ if (reversed == null) { reversed = false; }
 	this.page46_nextpage.name = "page46_nextpage";
 	this.page46_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page46_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.questionbtn47 = new lib.questionbtn();
+	this.questionbtn47.name = "questionbtn47";
+	this.questionbtn47.setTransform(513.55,1199.2,1.2238,0.193,0,0,0,1.4,1.3);
+	new cjs.ButtonHelper(this.questionbtn47, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page47_prevpage = new lib.nextpage();
 	this.page47_prevpage.name = "page47_prevpage";
@@ -7566,6 +8573,16 @@ if (reversed == null) { reversed = false; }
 	this.page51_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page51_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.page52btnto61 = new lib.questionbtn();
+	this.page52btnto61.name = "page52btnto61";
+	this.page52btnto61.setTransform(605.05,686.95,0.3163,0.0247,0,0,0,1,0);
+	new cjs.ButtonHelper(this.page52btnto61, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn52 = new lib.questionbtn();
+	this.questionbtn52.name = "questionbtn52";
+	this.questionbtn52.setTransform(512,393.3,1.2238,0.5085,0,0,0,1.4,1.8);
+	new cjs.ButtonHelper(this.questionbtn52, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page52_prevpage = new lib.nextpage();
 	this.page52_prevpage.name = "page52_prevpage";
 	this.page52_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7575,6 +8592,16 @@ if (reversed == null) { reversed = false; }
 	this.page52_nextpage.name = "page52_nextpage";
 	this.page52_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page52_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.questionbtn53b = new lib.questionbtn();
+	this.questionbtn53b.name = "questionbtn53b";
+	this.questionbtn53b.setTransform(533.9,864.15,1.1305,0.5084,0,0,0,1.7,2.2);
+	new cjs.ButtonHelper(this.questionbtn53b, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn53a = new lib.questionbtn();
+	this.questionbtn53a.name = "questionbtn53a";
+	this.questionbtn53a.setTransform(526.1,391.75,1.1654,0.2521,0,0,0,1.6,1.8);
+	new cjs.ButtonHelper(this.questionbtn53a, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page53_prevpage = new lib.nextpage();
 	this.page53_prevpage.name = "page53_prevpage";
@@ -7596,6 +8623,11 @@ if (reversed == null) { reversed = false; }
 	this.page54_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page54_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.questionbtn55 = new lib.questionbtn();
+	this.questionbtn55.name = "questionbtn55";
+	this.questionbtn55.setTransform(533.55,978.9,1.1305,0.75,0,0,0,1.7,2.2);
+	new cjs.ButtonHelper(this.questionbtn55, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page55_prevpage = new lib.nextpage();
 	this.page55_prevpage.name = "page55_prevpage";
 	this.page55_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7605,6 +8637,16 @@ if (reversed == null) { reversed = false; }
 	this.page55_nextpage.name = "page55_nextpage";
 	this.page55_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page55_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.questionbtn56a = new lib.questionbtn();
+	this.questionbtn56a.name = "questionbtn56a";
+	this.questionbtn56a.setTransform(529.65,376.3,1.1426,0.445,0,0,0,1.7,2.5);
+	new cjs.ButtonHelper(this.questionbtn56a, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn56b = new lib.questionbtn();
+	this.questionbtn56b.name = "questionbtn56b";
+	this.questionbtn56b.setTransform(529.65,1066.05,1.1659,0.445,0,0,0,1.7,2.5);
+	new cjs.ButtonHelper(this.questionbtn56b, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page56_prevpage = new lib.nextpage();
 	this.page56_prevpage.name = "page56_prevpage";
@@ -7616,6 +8658,21 @@ if (reversed == null) { reversed = false; }
 	this.page56_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page56_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.answerkeybtn2 = new lib.questionbtn();
+	this.answerkeybtn2.name = "answerkeybtn2";
+	this.answerkeybtn2.setTransform(502.35,986.2,1.2066,0.6681,0,0,0,1.9,2.8);
+	new cjs.ButtonHelper(this.answerkeybtn2, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.page57btnto62 = new lib.questionbtn();
+	this.page57btnto62.name = "page57btnto62";
+	this.page57btnto62.setTransform(645.3,273,0.4481,0.0247,0,0,0,1.4,0);
+	new cjs.ButtonHelper(this.page57btnto62, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.questionbtn57 = new lib.questionbtn();
+	this.questionbtn57.name = "questionbtn57";
+	this.questionbtn57.setTransform(531.7,153.65,1.0904,0.166,0,0,0,1.8,2.4);
+	new cjs.ButtonHelper(this.questionbtn57, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page57_prevpage = new lib.nextpage();
 	this.page57_prevpage.name = "page57_prevpage";
 	this.page57_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7625,6 +8682,26 @@ if (reversed == null) { reversed = false; }
 	this.page57_nextpage.name = "page57_nextpage";
 	this.page57_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page57_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.answerkeybtn16 = new lib.questionbtn();
+	this.answerkeybtn16.name = "answerkeybtn16";
+	this.answerkeybtn16.setTransform(493.6,1151.9,1.0242,0.3851,0,0,0,2.1,4.2);
+	new cjs.ButtonHelper(this.answerkeybtn16, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn15 = new lib.questionbtn();
+	this.answerkeybtn15.name = "answerkeybtn15";
+	this.answerkeybtn15.setTransform(535.4,805.15,1.1536,0.2359,0,0,0,2,3.8);
+	new cjs.ButtonHelper(this.answerkeybtn15, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn13 = new lib.questionbtn();
+	this.answerkeybtn13.name = "answerkeybtn13";
+	this.answerkeybtn13.setTransform(491.3,509.55,1.0187,0.2812,0,0,0,2.1,4.1);
+	new cjs.ButtonHelper(this.answerkeybtn13, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn5 = new lib.questionbtn();
+	this.answerkeybtn5.name = "answerkeybtn5";
+	this.answerkeybtn5.setTransform(534.55,251.2,1.1536,0.1841,0,0,0,2,3.6);
+	new cjs.ButtonHelper(this.answerkeybtn5, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page58_prevpage = new lib.nextpage();
 	this.page58_prevpage.name = "page58_prevpage";
@@ -7636,6 +8713,26 @@ if (reversed == null) { reversed = false; }
 	this.page58_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page58_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.answerkeybtn25 = new lib.questionbtn();
+	this.answerkeybtn25.name = "answerkeybtn25";
+	this.answerkeybtn25.setTransform(533.7,1129.75,1.1358,0.4411,0,0,0,2.4,4.8);
+	new cjs.ButtonHelper(this.answerkeybtn25, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn23 = new lib.questionbtn();
+	this.answerkeybtn23.name = "answerkeybtn23";
+	this.answerkeybtn23.setTransform(533.7,794.35,1.1358,0.1536,0,0,0,2.4,4.5);
+	new cjs.ButtonHelper(this.answerkeybtn23, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn19 = new lib.questionbtn();
+	this.answerkeybtn19.name = "answerkeybtn19";
+	this.answerkeybtn19.setTransform(533.7,555.7,1.1358,0.2693,0,0,0,2.4,4.5);
+	new cjs.ButtonHelper(this.answerkeybtn19, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn16b = new lib.questionbtn();
+	this.answerkeybtn16b.name = "answerkeybtn16b";
+	this.answerkeybtn16b.setTransform(496.8,192.05,0.9889,0.2956,0,0,0,2.3,4.2);
+	new cjs.ButtonHelper(this.answerkeybtn16b, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page59_prevpage = new lib.nextpage();
 	this.page59_prevpage.name = "page59_prevpage";
 	this.page59_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7645,6 +8742,16 @@ if (reversed == null) { reversed = false; }
 	this.page59_nextpage.name = "page59_nextpage";
 	this.page59_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page59_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.answerkeybtn37 = new lib.questionbtn();
+	this.answerkeybtn37.name = "answerkeybtn37";
+	this.answerkeybtn37.setTransform(542.75,913.5,1.1358,0.8853,0,0,0,2.4,5.1);
+	new cjs.ButtonHelper(this.answerkeybtn37, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn32 = new lib.questionbtn();
+	this.answerkeybtn32.name = "answerkeybtn32";
+	this.answerkeybtn32.setTransform(542.75,286.65,1.1358,0.2728,0,0,0,2.4,4.8);
+	new cjs.ButtonHelper(this.answerkeybtn32, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page60_prevpage = new lib.nextpage();
 	this.page60_prevpage.name = "page60_prevpage";
@@ -7656,6 +8763,21 @@ if (reversed == null) { reversed = false; }
 	this.page60_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page60_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.answerkeybtn53 = new lib.questionbtn();
+	this.answerkeybtn53.name = "answerkeybtn53";
+	this.answerkeybtn53.setTransform(530.75,1055.05,1.1458,0.3089,0,0,0,2.5,5.5);
+	new cjs.ButtonHelper(this.answerkeybtn53, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn52 = new lib.questionbtn();
+	this.answerkeybtn52.name = "answerkeybtn52";
+	this.answerkeybtn52.setTransform(260.65,646.4,0.3363,0.4323,0,0,0,2.4,5.5);
+	new cjs.ButtonHelper(this.answerkeybtn52, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn46 = new lib.questionbtn();
+	this.answerkeybtn46.name = "answerkeybtn46";
+	this.answerkeybtn46.setTransform(260.65,277.2,0.3363,0.231,0,0,0,2.4,5.2);
+	new cjs.ButtonHelper(this.answerkeybtn46, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page61_prevpage = new lib.nextpage();
 	this.page61_prevpage.name = "page61_prevpage";
 	this.page61_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7666,6 +8788,16 @@ if (reversed == null) { reversed = false; }
 	this.page61_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page61_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
+	this.answerkeybtn55 = new lib.questionbtn();
+	this.answerkeybtn55.name = "answerkeybtn55";
+	this.answerkeybtn55.setTransform(509.15,924.55,1.1922,0.7691,0,0,0,2.6,5.9);
+	new cjs.ButtonHelper(this.answerkeybtn55, 0, 1, 2, false, new lib.questionbtn(), 3);
+
+	this.answerkeybtn53b = new lib.questionbtn();
+	this.answerkeybtn53b.name = "answerkeybtn53b";
+	this.answerkeybtn53b.setTransform(531.65,291.95,1.1458,0.3687,0,0,0,2.5,5.7);
+	new cjs.ButtonHelper(this.answerkeybtn53b, 0, 1, 2, false, new lib.questionbtn(), 3);
+
 	this.page62_prevpage = new lib.nextpage();
 	this.page62_prevpage.name = "page62_prevpage";
 	this.page62_prevpage.setTransform(53.45,718.8,1,1,180,0,0,27.7,684.8);
@@ -7675,6 +8807,11 @@ if (reversed == null) { reversed = false; }
 	this.page62_nextpage.name = "page62_nextpage";
 	this.page62_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page62_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
+
+	this.answerkeybtn55b = new lib.questionbtn();
+	this.answerkeybtn55b.name = "answerkeybtn55b";
+	this.answerkeybtn55b.setTransform(517.55,753.9,1.1379,1.2283,0,0,0,2.9,6);
+	new cjs.ButtonHelper(this.answerkeybtn55b, 0, 1, 2, false, new lib.questionbtn(), 3);
 
 	this.page63_prevpage = new lib.nextpage();
 	this.page63_prevpage.name = "page63_prevpage";
@@ -7726,7 +8863,7 @@ if (reversed == null) { reversed = false; }
 	this.page67_nextpage.setTransform(942.85,35.65);
 	new cjs.ButtonHelper(this.page67_nextpage, 0, 1, 2, false, new lib.nextpage(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8b_nextpage},{t:this.page8b_prevpage}]},4).to({state:[]},1).to({state:[{t:this.page8_nextpage},{t:this.page8_prevpage}]},109).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage},{t:this.questionbtn2}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page5_nextpage},{t:this.page5_prevpage}]},10).to({state:[]},1).to({state:[{t:this.page6_nextpage},{t:this.page6_prevpage}]},13).to({state:[]},1).to({state:[{t:this.page7_nextpage},{t:this.page7_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page9_nextpage},{t:this.page9_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page10_nextpage},{t:this.page10_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page11_nextpage},{t:this.page11_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page12_nextpage},{t:this.page12_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page13_nextpage},{t:this.page13_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page14_nextpage},{t:this.page14_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page15_nextpage},{t:this.page15_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page16_nextpage},{t:this.page16_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page17_nextpage},{t:this.page17_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page18_nextpage},{t:this.page18_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page19_nextpage},{t:this.page19_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page20_nextpage},{t:this.page20_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page21_nextpage},{t:this.page21_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page22_nextpage},{t:this.page22_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page23_nextpage},{t:this.page23_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page24_nextpage},{t:this.page24_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page25_nextpage},{t:this.page25_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page26_nextpage},{t:this.page26_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page27_nextpage},{t:this.page27_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page28_nextpage},{t:this.page28_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page29_nextpage},{t:this.page29_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page30_nextpage},{t:this.page30_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page31_nextpage},{t:this.page31_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page32_nextpage},{t:this.page32_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page33_nextpage},{t:this.page33_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page34_nextpage},{t:this.page34_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page35_nextpage},{t:this.page35_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page36_nextpage},{t:this.page36_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page37_nextpage},{t:this.page37_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page38_nextpage},{t:this.page38_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page39_nextpage},{t:this.page39_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page40_nextpage},{t:this.page40_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page41_nextpage},{t:this.page41_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page42_nextpage},{t:this.page42_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page43_nextpage},{t:this.page43_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page44_nextpage},{t:this.page44_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page45_nextpage},{t:this.page45_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page46_nextpage},{t:this.page46_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page47_nextpage},{t:this.page47_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page48_nextpage},{t:this.page48_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page49_nextpage},{t:this.page49_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page50_nextpage},{t:this.page50_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page51_nextpage},{t:this.page51_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page52_nextpage},{t:this.page52_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page53_nextpage},{t:this.page53_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page54_nextpage},{t:this.page54_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page55_nextpage},{t:this.page55_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page56_nextpage},{t:this.page56_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page57_nextpage},{t:this.page57_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page58_nextpage},{t:this.page58_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page59_nextpage},{t:this.page59_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page60_nextpage},{t:this.page60_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page61_nextpage},{t:this.page61_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page62_nextpage},{t:this.page62_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page63_nextpage},{t:this.page63_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page64_nextpage},{t:this.page64_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page65_nextpage},{t:this.page65_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page66_nextpage},{t:this.page66_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page67_nextpage},{t:this.page67_prevpage}]},9).to({state:[]},1).to({state:[]},1).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.page8b_nextpage},{t:this.page8b_prevpage}]},4).to({state:[]},1).to({state:[{t:this.page8_nextpage},{t:this.page8_prevpage}]},109).to({state:[]},1).to({state:[{t:this.page1_nextpage},{t:this.page1_prevpage}]},8).to({state:[]},1).to({state:[{t:this.page2_nextpage},{t:this.page2_prevpage},{t:this.questionbtn2}]},9).to({state:[]},1).to({state:[{t:this.page3_nextpage},{t:this.page3_prevpage},{t:this.questionbtn2b},{t:this.page3btnto57}]},9).to({state:[]},1).to({state:[{t:this.page4_nextpage},{t:this.page4_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page5_nextpage},{t:this.page5_prevpage},{t:this.questionbtn5},{t:this.page5btnto58}]},10).to({state:[]},1).to({state:[{t:this.page6_nextpage},{t:this.page6_prevpage}]},13).to({state:[]},1).to({state:[{t:this.page7_nextpage},{t:this.page7_prevpage},{t:this.questionbtn7}]},9).to({state:[]},1).to({state:[{t:this.page9_nextpage},{t:this.page9_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page10_nextpage},{t:this.page10_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page11_nextpage},{t:this.page11_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page12_nextpage},{t:this.page12_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page13_nextpage},{t:this.page13_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page14_nextpage},{t:this.page14_prevpage},{t:this.questionbtn14},{t:this.page14btnto58}]},9).to({state:[]},1).to({state:[{t:this.page15_nextpage},{t:this.page15_prevpage},{t:this.questionbtn15},{t:this.page15btnto58}]},9).to({state:[]},1).to({state:[{t:this.page16_nextpage},{t:this.page16_prevpage},{t:this.questionbtn16},{t:this.page16btnto58}]},9).to({state:[]},1).to({state:[{t:this.page17_nextpage},{t:this.page17_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page18_nextpage},{t:this.page18_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page19_nextpage},{t:this.page19_prevpage},{t:this.questionbtn19},{t:this.page19btnto59}]},9).to({state:[]},1).to({state:[{t:this.page20_nextpage},{t:this.page20_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page21_nextpage},{t:this.page21_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page22_nextpage},{t:this.page22_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page23_nextpage},{t:this.page23_prevpage},{t:this.questionbtn23},{t:this.page23btnto59}]},9).to({state:[]},1).to({state:[{t:this.page24_nextpage},{t:this.page24_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page25_nextpage},{t:this.page25_prevpage},{t:this.questionbtn25}]},9).to({state:[]},1).to({state:[{t:this.page26_nextpage},{t:this.page26_prevpage},{t:this.questionbtn26},{t:this.page26btnto59}]},9).to({state:[]},1).to({state:[{t:this.page27_nextpage},{t:this.page27_prevpage},{t:this.questionbtn27}]},9).to({state:[]},1).to({state:[{t:this.page28_nextpage},{t:this.page28_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page29_nextpage},{t:this.page29_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page30_nextpage},{t:this.page30_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page31_nextpage},{t:this.page31_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page32_nextpage},{t:this.page32_prevpage},{t:this.questionbtn32},{t:this.page32btnto60}]},9).to({state:[]},1).to({state:[{t:this.page33_nextpage},{t:this.page33_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page34_nextpage},{t:this.page34_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page35_nextpage},{t:this.page35_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page36_nextpage},{t:this.page36_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page37_nextpage},{t:this.page37_prevpage},{t:this.questionbtn37}]},9).to({state:[]},1).to({state:[{t:this.page38_nextpage},{t:this.page38_prevpage},{t:this.questionbtn38},{t:this.page38btnto60}]},9).to({state:[]},1).to({state:[{t:this.page39_nextpage},{t:this.page39_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page40_nextpage},{t:this.page40_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page41_nextpage},{t:this.page41_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page42_nextpage},{t:this.page42_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page43_nextpage},{t:this.page43_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page44_nextpage},{t:this.page44_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page45_nextpage},{t:this.page45_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page46_nextpage},{t:this.page46_prevpage},{t:this.questionbtn46},{t:this.page46btnto61}]},9).to({state:[]},1).to({state:[{t:this.page47_nextpage},{t:this.page47_prevpage},{t:this.questionbtn47}]},9).to({state:[]},1).to({state:[{t:this.page48_nextpage},{t:this.page48_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page49_nextpage},{t:this.page49_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page50_nextpage},{t:this.page50_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page51_nextpage},{t:this.page51_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page52_nextpage},{t:this.page52_prevpage},{t:this.questionbtn52},{t:this.page52btnto61,p:{regX:1,scaleX:0.3163,x:605.05,y:686.95}}]},9).to({state:[]},1).to({state:[{t:this.page53_nextpage},{t:this.page53_prevpage},{t:this.questionbtn53a},{t:this.questionbtn53b},{t:this.page52btnto61,p:{regX:1.1,scaleX:0.3208,x:655.85,y:1164.95}}]},9).to({state:[]},1).to({state:[{t:this.page54_nextpage},{t:this.page54_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page55_nextpage},{t:this.page55_prevpage},{t:this.questionbtn55}]},9).to({state:[]},1).to({state:[{t:this.page56_nextpage},{t:this.page56_prevpage},{t:this.questionbtn56b},{t:this.questionbtn56a}]},9).to({state:[]},1).to({state:[{t:this.page57_nextpage},{t:this.page57_prevpage},{t:this.questionbtn57},{t:this.page57btnto62},{t:this.answerkeybtn2}]},9).to({state:[]},1).to({state:[{t:this.page58_nextpage},{t:this.page58_prevpage},{t:this.answerkeybtn5},{t:this.answerkeybtn13},{t:this.answerkeybtn15},{t:this.answerkeybtn16}]},9).to({state:[]},1).to({state:[{t:this.page59_nextpage},{t:this.page59_prevpage},{t:this.answerkeybtn16b},{t:this.answerkeybtn19},{t:this.answerkeybtn23},{t:this.answerkeybtn25}]},9).to({state:[]},1).to({state:[{t:this.page60_nextpage},{t:this.page60_prevpage},{t:this.answerkeybtn32},{t:this.answerkeybtn37}]},9).to({state:[]},1).to({state:[{t:this.page61_nextpage},{t:this.page61_prevpage},{t:this.answerkeybtn46},{t:this.answerkeybtn52},{t:this.answerkeybtn53}]},9).to({state:[]},1).to({state:[{t:this.page62_nextpage},{t:this.page62_prevpage},{t:this.answerkeybtn53b},{t:this.answerkeybtn55}]},9).to({state:[]},1).to({state:[{t:this.page63_nextpage},{t:this.page63_prevpage},{t:this.answerkeybtn55b}]},9).to({state:[]},1).to({state:[{t:this.page64_nextpage},{t:this.page64_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page65_nextpage},{t:this.page65_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page66_nextpage},{t:this.page66_prevpage}]},9).to({state:[]},1).to({state:[{t:this.page67_nextpage},{t:this.page67_prevpage}]},9).to({state:[]},1).to({state:[]},1).wait(130));
 
 	// Layer_15
 	this.instance = new lib.CachedBmp_1();
@@ -8243,7 +9380,7 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_97 = new lib._067();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.coverwhole_next},{t:this.howto_navigate}]},1).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles},{t:this.instance_24}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24}]},2).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},8).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},20).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},8).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_31}]},9).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},10).to({state:[{t:this.instance_34}]},10).to({state:[{t:this.instance_36},{t:this.instance_35}]},11).to({state:[{t:this.instance_36},{t:this.instance_35}]},3).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},10).to({state:[{t:this.instance_39}]},10).to({state:[{t:this.instance_40}]},10).to({state:[{t:this.instance_41}]},10).to({state:[{t:this.instance_42}]},10).to({state:[{t:this.instance_43}]},10).to({state:[{t:this.instance_44}]},10).to({state:[{t:this.instance_45}]},10).to({state:[{t:this.instance_46}]},10).to({state:[{t:this.instance_47}]},10).to({state:[{t:this.instance_48}]},10).to({state:[{t:this.instance_49}]},10).to({state:[{t:this.instance_50}]},10).to({state:[{t:this.instance_51}]},10).to({state:[{t:this.instance_52}]},10).to({state:[{t:this.instance_53}]},10).to({state:[{t:this.instance_54}]},10).to({state:[{t:this.instance_55}]},10).to({state:[{t:this.instance_56}]},10).to({state:[{t:this.instance_57}]},10).to({state:[{t:this.instance_58}]},10).to({state:[{t:this.instance_59}]},10).to({state:[{t:this.instance_60}]},10).to({state:[{t:this.instance_61}]},10).to({state:[{t:this.instance_62}]},10).to({state:[{t:this.instance_63}]},10).to({state:[{t:this.instance_64}]},10).to({state:[{t:this.instance_65}]},10).to({state:[{t:this.instance_66}]},10).to({state:[{t:this.instance_67}]},10).to({state:[{t:this.instance_68}]},10).to({state:[{t:this.instance_69}]},10).to({state:[{t:this.instance_70}]},10).to({state:[{t:this.instance_71}]},10).to({state:[{t:this.instance_72}]},10).to({state:[{t:this.instance_73}]},10).to({state:[{t:this.instance_74}]},10).to({state:[{t:this.instance_75}]},10).to({state:[{t:this.instance_76}]},10).to({state:[{t:this.instance_77}]},10).to({state:[{t:this.instance_78}]},10).to({state:[{t:this.instance_79}]},10).to({state:[{t:this.instance_80}]},10).to({state:[{t:this.instance_81}]},10).to({state:[{t:this.instance_82}]},10).to({state:[{t:this.instance_83}]},10).to({state:[{t:this.instance_84}]},10).to({state:[{t:this.instance_85}]},10).to({state:[{t:this.instance_86}]},10).to({state:[{t:this.instance_87}]},10).to({state:[{t:this.instance_88}]},10).to({state:[{t:this.instance_89}]},10).to({state:[{t:this.instance_90}]},10).to({state:[{t:this.instance_91}]},10).to({state:[{t:this.instance_92}]},10).to({state:[{t:this.instance_93}]},10).to({state:[{t:this.instance_94}]},10).to({state:[{t:this.instance_95}]},10).to({state:[{t:this.instance_96}]},10).to({state:[{t:this.instance_97}]},10).to({state:[]},10).wait(131));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_23}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_23},{t:this.coverwhole_next},{t:this.howto_navigate}]},1).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles},{t:this.instance_24}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24}]},2).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},8).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},20).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25}]},10).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_29},{t:this.instance_26},{t:this.instance_25},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_30}]},8).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_31}]},9).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_32}]},9).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},10).to({state:[{t:this.instance_34}]},10).to({state:[{t:this.instance_36},{t:this.instance_35}]},1).to({state:[{t:this.instance_36},{t:this.instance_35}]},3).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},10).to({state:[{t:this.instance_39}]},10).to({state:[{t:this.instance_40}]},10).to({state:[{t:this.instance_41}]},10).to({state:[{t:this.instance_42}]},10).to({state:[{t:this.instance_43}]},10).to({state:[{t:this.instance_44}]},10).to({state:[{t:this.instance_45}]},10).to({state:[{t:this.instance_46}]},10).to({state:[{t:this.instance_47}]},10).to({state:[{t:this.instance_48}]},10).to({state:[{t:this.instance_49}]},10).to({state:[{t:this.instance_50}]},10).to({state:[{t:this.instance_51}]},10).to({state:[{t:this.instance_52}]},10).to({state:[{t:this.instance_53}]},10).to({state:[{t:this.instance_54}]},10).to({state:[{t:this.instance_55}]},10).to({state:[{t:this.instance_56}]},10).to({state:[{t:this.instance_57}]},10).to({state:[{t:this.instance_58}]},10).to({state:[{t:this.instance_59}]},10).to({state:[{t:this.instance_60}]},10).to({state:[{t:this.instance_61}]},10).to({state:[{t:this.instance_62}]},10).to({state:[{t:this.instance_63}]},10).to({state:[{t:this.instance_64}]},10).to({state:[{t:this.instance_65}]},10).to({state:[{t:this.instance_66}]},10).to({state:[{t:this.instance_67}]},10).to({state:[{t:this.instance_68}]},10).to({state:[{t:this.instance_69}]},10).to({state:[{t:this.instance_70}]},10).to({state:[{t:this.instance_71}]},10).to({state:[{t:this.instance_72}]},10).to({state:[{t:this.instance_73}]},10).to({state:[{t:this.instance_74}]},10).to({state:[{t:this.instance_75}]},10).to({state:[{t:this.instance_76}]},10).to({state:[{t:this.instance_77}]},10).to({state:[{t:this.instance_78}]},10).to({state:[{t:this.instance_79}]},10).to({state:[{t:this.instance_80}]},10).to({state:[{t:this.instance_81}]},10).to({state:[{t:this.instance_82}]},10).to({state:[{t:this.instance_83}]},10).to({state:[{t:this.instance_84}]},10).to({state:[{t:this.instance_85}]},10).to({state:[{t:this.instance_86}]},10).to({state:[{t:this.instance_87}]},10).to({state:[{t:this.instance_88}]},10).to({state:[{t:this.instance_89}]},10).to({state:[{t:this.instance_90}]},10).to({state:[{t:this.instance_91}]},10).to({state:[{t:this.instance_92}]},10).to({state:[{t:this.instance_93}]},10).to({state:[{t:this.instance_94}]},10).to({state:[{t:this.instance_95}]},10).to({state:[{t:this.instance_96}]},10).to({state:[{t:this.instance_97}]},10).to({state:[]},10).wait(131));
 
 	this._renderFirstFrame();
 
