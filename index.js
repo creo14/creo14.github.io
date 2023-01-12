@@ -13412,7 +13412,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_31()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_23 = function() {
@@ -13437,7 +13437,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_32()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_33 = function() {
@@ -13461,7 +13461,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_33()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_43 = function() {
@@ -13485,7 +13485,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_34()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_53 = function() {
@@ -13509,7 +13509,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_35()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_63 = function() {
@@ -13533,7 +13533,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_36()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_73 = function() {
@@ -13557,7 +13557,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_37()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_83 = function() {
@@ -13581,7 +13581,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_38()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_93 = function() {
@@ -13605,7 +13605,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_39()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_103 = function() {
@@ -13629,7 +13629,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_40()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_113 = function() {
@@ -13653,7 +13653,7 @@ if (reversed == null) { reversed = false; }
 		
 		function fl_ClickToGoToAndPlayFromFrame_41()
 		{
-			this.gotoAndPlay(5);
+			this.gotoAndPlay(4);
 		}
 	}
 	this.frame_114 = function() {
