@@ -6979,15 +6979,12 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// timeline functions:
-	this.frame_0 = function() {
-		playSound("newcomposition4d");
-	}
 	this.frame_2 = function() {
 		playSound("turnpage");
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2).call(this.frame_2).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(2));
 
 	// Layer_1
 	this.shape = new cjs.Shape();
