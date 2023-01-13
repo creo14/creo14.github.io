@@ -8205,6 +8205,46 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(257,450,512,540);
 
 
+(lib.intromusic = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// timeline functions:
+	this.frame_0 = function() {
+		playSound("intro");
+	}
+	this.frame_4 = function() {
+		/* Stop at This Frame
+		The  timeline will stop/pause at the frame where you insert this code.
+		Can also be used to stop/pause the timeline of movieclips.
+		*/
+		
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(4).call(this.frame_4).wait(1));
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#00AED5").s().p("AwLNwIAA7fMAgXAAAIAAbfg");
+	this.shape.setTransform(0.025,0);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(5));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-103.6,-88,207.3,176);
+
+
 (lib.howtonavigate = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -14031,11 +14071,14 @@ if (reversed == null) { reversed = false; }
 		   Keep the quotation marks ("").
 		*/
 		
+		
 		this.questionbtn2b.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
 			window.open("questionspage2.html");
 		}
+		
+		
 		
 		
 		/* Click to Go to Frame and Play
@@ -18668,6 +18711,9 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_23).wait(258).to({_off:false},0).to({_off:true},1).wait(651));
 
 	// Layer_3
+	this.instance_24 = new lib.intromusic();
+	this.instance_24.setTransform(99.75,69.15,0.6228,0.511,0,0,0,0.1,0);
+
 	this.centrioles_b = new lib.Button();
 	this.centrioles_b.name = "centrioles_b";
 	this.centrioles_b.setTransform(666.45,427.6,0.5309,0.3594,0,0,0,134.3,51.1);
@@ -18723,8 +18769,8 @@ if (reversed == null) { reversed = false; }
 	this.plasma_membrane_b.setTransform(290.85,477.45,0.6325,0.57,0,0,0,133.5,50.1);
 	new cjs.ButtonHelper(this.plasma_membrane_b, 0, 1, 2, false, new lib.Button(), 3);
 
-	this.instance_24 = new lib.pageflip();
-	this.instance_24.setTransform(509.4,719.6,1,1,0,0,0,509.4,717.9);
+	this.instance_25 = new lib.pageflip();
+	this.instance_25.setTransform(509.4,719.6,1,1,0,0,0,509.4,717.9);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#78F9E2").ss(1,1,1).p("EhPmhwKMCfNAAAMAAADgVMifNAAAg");
@@ -18735,156 +18781,156 @@ if (reversed == null) { reversed = false; }
 	this.howto_pageback.setTransform(3.25,4.95);
 	new cjs.ButtonHelper(this.howto_pageback, 0, 1, 2, false, new lib.nextpagewhole(), 3);
 
-	this.instance_25 = new lib.Symbol1();
-	this.instance_25.setTransform(811.35,657.5);
+	this.instance_26 = new lib.Symbol1();
+	this.instance_26.setTransform(811.35,657.5);
 
-	this.instance_26 = new lib._009a();
-	this.instance_26.setTransform(121,1062);
+	this.instance_27 = new lib._009a();
+	this.instance_27.setTransform(121,1062);
 
-	this.instance_27 = new lib.cellinout();
-	this.instance_27.setTransform(71.45,1006.4,1.3637,1.3746,0,0,0,0.2,0.3);
-	this.instance_27.compositeOperation = "multiply";
+	this.instance_28 = new lib.cellinout();
+	this.instance_28.setTransform(71.45,1006.4,1.3637,1.3746,0,0,0,0.2,0.3);
+	this.instance_28.compositeOperation = "multiply";
 
-	this.instance_28 = new lib.Symbol2();
-	this.instance_28.setTransform(238.45,1057.95);
+	this.instance_29 = new lib.Symbol2();
+	this.instance_29.setTransform(238.45,1057.95);
 
-	this.instance_29 = new lib.skeletalmusclecell();
-	this.instance_29.setTransform(473,932);
+	this.instance_30 = new lib.skeletalmusclecell();
+	this.instance_30.setTransform(473,932);
 
-	this.instance_30 = new lib.smoothendoplasmic();
-	this.instance_30.setTransform(391.3,147.75);
+	this.instance_31 = new lib.smoothendoplasmic();
+	this.instance_31.setTransform(391.3,147.75);
 
-	this.instance_31 = new lib.bacteriamovie();
-	this.instance_31.setTransform(250.1,411.45);
-
-	this.instance_32 = new lib.arrowfat_1();
-	this.instance_32.setTransform(397.35,524.6,0.743,0.7573,0,0,180);
+	this.instance_32 = new lib.bacteriamovie();
+	this.instance_32.setTransform(250.1,411.45);
 
 	this.instance_33 = new lib.arrowfat_1();
-	this.instance_33.setTransform(788.45,522.85,0.7117,0.7117);
+	this.instance_33.setTransform(397.35,524.6,0.743,0.7573,0,0,180);
 
-	this.instance_34 = new lib.selectivelypermeable();
-	this.instance_34.setTransform(574.45,1128.75);
+	this.instance_34 = new lib.arrowfat_1();
+	this.instance_34.setTransform(788.45,522.85,0.7117,0.7117);
 
-	this.instance_35 = new lib.bacteriawhiteblood();
-	this.instance_35.setTransform(616.7,1110.65);
+	this.instance_35 = new lib.selectivelypermeable();
+	this.instance_35.setTransform(574.45,1128.75);
 
-	this.instance_36 = new lib.arrowdown_1();
-	this.instance_36.setTransform(555,450);
+	this.instance_36 = new lib.bacteriawhiteblood();
+	this.instance_36.setTransform(616.7,1110.65);
 
-	this.instance_37 = new lib.parentdaughtercell();
-	this.instance_37.setTransform(482.5,416);
+	this.instance_37 = new lib.arrowdown_1();
+	this.instance_37.setTransform(555,450);
 
-	this.instance_38 = new lib.histonesndna();
-	this.instance_38.setTransform(283.9,333.85);
+	this.instance_38 = new lib.parentdaughtercell();
+	this.instance_38.setTransform(482.5,416);
 
-	this.instance_39 = new lib.dna();
-	this.instance_39.setTransform(257.5,963.9,1.3111,1.3111,-39.3923);
-	this.instance_39.compositeOperation = "screen";
+	this.instance_39 = new lib.histonesndna();
+	this.instance_39.setTransform(283.9,333.85);
 
-	this.instance_40 = new lib.centriolesnucleolus();
-	this.instance_40.setTransform(629.15,1130.9);
+	this.instance_40 = new lib.dna();
+	this.instance_40.setTransform(257.5,963.9,1.3111,1.3111,-39.3923);
+	this.instance_40.compositeOperation = "screen";
 
-	this.instance_41 = new lib.chromatinnucleolus();
-	this.instance_41.setTransform(413.8,785.7);
+	this.instance_41 = new lib.centriolesnucleolus();
+	this.instance_41.setTransform(629.15,1130.9);
 
-	this.instance_42 = new lib.mitoticspindle();
-	this.instance_42.setTransform(695.2,225.85);
+	this.instance_42 = new lib.chromatinnucleolus();
+	this.instance_42.setTransform(413.8,785.7);
 
-	this.instance_43 = new lib.metaphaseplate();
-	this.instance_43.setTransform(394.45,905.65);
+	this.instance_43 = new lib.mitoticspindle();
+	this.instance_43.setTransform(695.2,225.85);
 
-	this.instance_44 = new lib.thecentriolesstarttoform();
-	this.instance_44.setTransform(689,334.15);
+	this.instance_44 = new lib.metaphaseplate();
+	this.instance_44.setTransform(394.45,905.65);
 
-	this.instance_45 = new lib.cellplate();
-	this.instance_45.setTransform(380.75,1258.25);
+	this.instance_45 = new lib.thecentriolesstarttoform();
+	this.instance_45.setTransform(689,334.15);
 
-	this.instance_46 = new lib.nuclearmembraneappears();
-	this.instance_46.setTransform(607.8,683.7);
+	this.instance_46 = new lib.cellplate();
+	this.instance_46.setTransform(380.75,1258.25);
 
-	this.instance_47 = new lib.sisterchromatidsseparate();
-	this.instance_47.setTransform(409.35,215.5);
+	this.instance_47 = new lib.nuclearmembraneappears();
+	this.instance_47.setTransform(607.8,683.7);
 
-	this.instance_48 = new lib.homologouspairs();
-	this.instance_48.setTransform(496.45,978.6);
+	this.instance_48 = new lib.sisterchromatidsseparate();
+	this.instance_48.setTransform(409.35,215.5);
 
-	this.instance_49 = new lib.chromatinnuclearmembrane();
-	this.instance_49.setTransform(602.75,607);
+	this.instance_49 = new lib.homologouspairs();
+	this.instance_49.setTransform(496.45,978.6);
 
-	this.instance_50 = new lib.CachedBmp_17();
-	this.instance_50.setTransform(244.2,966.2,0.5,0.5);
+	this.instance_50 = new lib.chromatinnuclearmembrane();
+	this.instance_50.setTransform(602.75,607);
 
-	this.instance_51 = new lib.CachedBmp_16();
-	this.instance_51.setTransform(634.25,1065.2,0.5,0.5);
+	this.instance_51 = new lib.CachedBmp_17();
+	this.instance_51.setTransform(244.2,966.2,0.5,0.5);
 
-	this.instance_52 = new lib.CachedBmp_15();
-	this.instance_52.setTransform(648.55,988.2,0.5,0.5);
+	this.instance_52 = new lib.CachedBmp_16();
+	this.instance_52.setTransform(634.25,1065.2,0.5,0.5);
 
-	this.instance_53 = new lib.CachedBmp_14();
-	this.instance_53.setTransform(418.6,913.1,0.5,0.5);
+	this.instance_53 = new lib.CachedBmp_15();
+	this.instance_53.setTransform(648.55,988.2,0.5,0.5);
 
-	this.instance_54 = new lib.CachedBmp_13();
-	this.instance_54.setTransform(221.3,674,0.5,0.5);
+	this.instance_54 = new lib.CachedBmp_14();
+	this.instance_54.setTransform(418.6,913.1,0.5,0.5);
 
-	this.instance_55 = new lib.CachedBmp_12();
-	this.instance_55.setTransform(676.1,546.75,0.5,0.5);
+	this.instance_55 = new lib.CachedBmp_13();
+	this.instance_55.setTransform(221.3,674,0.5,0.5);
 
-	this.instance_56 = new lib.equatorialplatehomologousepair();
-	this.instance_56.setTransform(441.8,843.55);
+	this.instance_56 = new lib.CachedBmp_12();
+	this.instance_56.setTransform(676.1,546.75,0.5,0.5);
 
-	this.instance_57 = new lib.sisterchromatidstetrastructure();
-	this.instance_57.setTransform(453.9,49.35);
+	this.instance_57 = new lib.equatorialplatehomologousepair();
+	this.instance_57.setTransform(441.8,843.55);
 
-	this.instance_58 = new lib.CachedBmp_23();
-	this.instance_58.setTransform(686.55,1079.25,0.5,0.5);
+	this.instance_58 = new lib.sisterchromatidstetrastructure();
+	this.instance_58.setTransform(453.9,49.35);
 
-	this.instance_59 = new lib.CachedBmp_22();
-	this.instance_59.setTransform(244.45,832.35,0.5,0.5);
+	this.instance_59 = new lib.CachedBmp_23();
+	this.instance_59.setTransform(686.55,1079.25,0.5,0.5);
 
-	this.instance_60 = new lib.CachedBmp_21();
-	this.instance_60.setTransform(612,327.65,0.5,0.5);
+	this.instance_60 = new lib.CachedBmp_22();
+	this.instance_60.setTransform(244.45,832.35,0.5,0.5);
 
-	this.instance_61 = new lib.CachedBmp_20();
-	this.instance_61.setTransform(649.75,107.15,0.5,0.5);
+	this.instance_61 = new lib.CachedBmp_21();
+	this.instance_61.setTransform(612,327.65,0.5,0.5);
 
-	this.instance_62 = new lib.CachedBmp_19();
-	this.instance_62.setTransform(296.3,291.5,0.5,0.5);
+	this.instance_62 = new lib.CachedBmp_20();
+	this.instance_62.setTransform(649.75,107.15,0.5,0.5);
 
-	this.instance_63 = new lib.CachedBmp_18();
-	this.instance_63.setTransform(356.35,45.85,0.5,0.5);
+	this.instance_63 = new lib.CachedBmp_19();
+	this.instance_63.setTransform(296.3,291.5,0.5,0.5);
 
-	this.instance_64 = new lib.centriolepaircentromere();
-	this.instance_64.setTransform(772.55,1034.7);
+	this.instance_64 = new lib.CachedBmp_18();
+	this.instance_64.setTransform(356.35,45.85,0.5,0.5);
 
-	this.instance_65 = new lib.CachedBmp_26();
-	this.instance_65.setTransform(723.25,1193.8,0.5,0.5);
+	this.instance_65 = new lib.centriolepaircentromere();
+	this.instance_65.setTransform(772.55,1034.7);
 
-	this.instance_66 = new lib.CachedBmp_25();
-	this.instance_66.setTransform(795.6,1117.15,0.5,0.5);
+	this.instance_66 = new lib.CachedBmp_26();
+	this.instance_66.setTransform(723.25,1193.8,0.5,0.5);
 
-	this.instance_67 = new lib.CachedBmp_24();
-	this.instance_67.setTransform(771.8,948.4,0.5,0.5);
+	this.instance_67 = new lib.CachedBmp_25();
+	this.instance_67.setTransform(795.6,1117.15,0.5,0.5);
 
-	this.instance_68 = new lib.spindlefibersmetaphaseplate();
-	this.instance_68.setTransform(705.4,123.9);
+	this.instance_68 = new lib.CachedBmp_24();
+	this.instance_68.setTransform(771.8,948.4,0.5,0.5);
 
-	this.instance_69 = new lib.CachedBmp_29();
-	this.instance_69.setTransform(725.05,1009.9,0.5,0.5);
+	this.instance_69 = new lib.spindlefibersmetaphaseplate();
+	this.instance_69.setTransform(705.4,123.9);
 
-	this.instance_70 = new lib.CachedBmp_28();
-	this.instance_70.setTransform(765.7,304.55,0.5,0.5);
+	this.instance_70 = new lib.CachedBmp_29();
+	this.instance_70.setTransform(725.05,1009.9,0.5,0.5);
 
-	this.instance_71 = new lib.CachedBmp_27();
-	this.instance_71.setTransform(723.1,63.85,0.5,0.5);
+	this.instance_71 = new lib.CachedBmp_28();
+	this.instance_71.setTransform(765.7,304.55,0.5,0.5);
 
-	this.instance_72 = new lib.dnaline();
-	this.instance_72.setTransform(257.8,1057.6);
+	this.instance_72 = new lib.CachedBmp_27();
+	this.instance_72.setTransform(723.1,63.85,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.plasma_membrane_b},{t:this.nucleus_b},{t:this.nucleolus_b},{t:this.cytoplasm_b},{t:this.mithocondria_b},{t:this.sm_endosplasmic_b},{t:this.ribosome_b},{t:this.golgi_apparatus_b},{t:this.lysosome_b},{t:this.ro_endoplasmic_b},{t:this.centrioles_b}]},4).to({state:[]},1).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_24,p:{x:509.4,y:719.6}}]},110).to({state:[]},8).to({state:[{t:this.shape,p:{x:510.475,y:717.875}},{t:this.instance_24,p:{x:510.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_24,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_24,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_24,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.howto_pageback,p:{x:3.25}}]},2).to({state:[{t:this.howto_pageback,p:{x:4.95}}]},3).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_24,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_25}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_28},{t:this.instance_27},{t:this.instance_26}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_29}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_31}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_33,p:{x:788.45,y:522.85}},{t:this.instance_32,p:{scaleX:0.743,scaleY:0.7573,skewY:180,x:397.35,y:524.6}}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_34}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_35}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_36}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_37}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_39},{t:this.instance_38}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_42},{t:this.instance_41},{t:this.instance_40}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_44},{t:this.instance_43}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_47},{t:this.instance_46},{t:this.instance_45},{t:this.instance_33,p:{x:498,y:1119}},{t:this.instance_32,p:{scaleX:0.7117,scaleY:0.7117,skewY:0,x:498,y:1291.3}}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_55},{t:this.instance_54},{t:this.instance_53},{t:this.instance_52},{t:this.instance_51},{t:this.instance_50},{t:this.instance_49},{t:this.instance_48}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_63},{t:this.instance_62},{t:this.instance_61},{t:this.instance_60},{t:this.instance_59},{t:this.instance_58},{t:this.instance_57},{t:this.instance_56}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_67},{t:this.instance_66},{t:this.instance_65},{t:this.instance_64}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_71},{t:this.instance_70},{t:this.instance_69},{t:this.instance_68}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_72}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_24,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).wait(132));
+	this.instance_73 = new lib.dnaline();
+	this.instance_73.setTransform(257.8,1057.6);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_24}]}).to({state:[]},2).to({state:[{t:this.plasma_membrane_b},{t:this.nucleus_b},{t:this.nucleolus_b},{t:this.cytoplasm_b},{t:this.mithocondria_b},{t:this.sm_endosplasmic_b},{t:this.ribosome_b},{t:this.golgi_apparatus_b},{t:this.lysosome_b},{t:this.ro_endoplasmic_b},{t:this.centrioles_b}]},2).to({state:[]},1).to({state:[{t:this.shape,p:{x:512.825,y:719.575}},{t:this.instance_25,p:{x:509.4,y:719.6}}]},110).to({state:[]},8).to({state:[{t:this.shape,p:{x:510.475,y:717.875}},{t:this.instance_25,p:{x:510.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_25,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_25,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_25,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.howto_pageback,p:{x:3.25}}]},2).to({state:[{t:this.howto_pageback,p:{x:4.95}}]},3).to({state:[{t:this.shape,p:{x:510.275,y:718.275}},{t:this.instance_25,p:{x:510.2,y:718.3}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_26}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_29},{t:this.instance_28},{t:this.instance_27}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_30}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_31}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_32}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_34,p:{x:788.45,y:522.85}},{t:this.instance_33,p:{scaleX:0.743,scaleY:0.7573,skewY:180,x:397.35,y:524.6}}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_35}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_36}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_37}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_38}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_40},{t:this.instance_39}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_43},{t:this.instance_42},{t:this.instance_41}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_45},{t:this.instance_44}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_48},{t:this.instance_47},{t:this.instance_46},{t:this.instance_34,p:{x:498,y:1119}},{t:this.instance_33,p:{scaleX:0.7117,scaleY:0.7117,skewY:0,x:498,y:1291.3}}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_56},{t:this.instance_55},{t:this.instance_54},{t:this.instance_53},{t:this.instance_52},{t:this.instance_51},{t:this.instance_50},{t:this.instance_49}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_64},{t:this.instance_63},{t:this.instance_62},{t:this.instance_61},{t:this.instance_60},{t:this.instance_59},{t:this.instance_58},{t:this.instance_57}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_68},{t:this.instance_67},{t:this.instance_66},{t:this.instance_65}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_72},{t:this.instance_71},{t:this.instance_70},{t:this.instance_69}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[{t:this.instance_73}]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).to({state:[{t:this.shape,p:{x:509.475,y:717.875}},{t:this.instance_25,p:{x:509.4,y:717.9}}]},1).to({state:[]},9).wait(132));
 
 	// Layer_1
-	this.instance_73 = new lib.SampleCoveralpha();
+	this.instance_74 = new lib.SampleCoveralpha();
 
 	this.intromovie = new lib.intropage();
 	this.intromovie.name = "intromovie";
@@ -18908,8 +18954,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#79B1A4").s().p("AjrDrIAAnWIHXAAIAAHWg");
 	this.shape_2.setTransform(964.8,53.35);
 
-	this.instance_74 = new lib.page8intro();
-	this.instance_74.setTransform(0,379.2,2,1.9969,0,0,0,0,0.1);
+	this.instance_75 = new lib.page8intro();
+	this.instance_75.setTransform(0,379.2,2,1.9969,0,0,0,0,0.1);
 
 	this.centrioles = new lib.Button();
 	this.centrioles.name = "centrioles";
@@ -18966,16 +19012,16 @@ if (reversed == null) { reversed = false; }
 	this.plasma_membrane.setTransform(278.05,479.45,0.6325,0.57,0,0,0,133.5,50.1);
 	new cjs.ButtonHelper(this.plasma_membrane, 0, 1, 2, false, new lib.Button(), 3);
 
-	this.instance_75 = new lib.SamplePageweb_05();
-	this.instance_75.setTransform(0,1346);
+	this.instance_76 = new lib.SamplePageweb_05();
+	this.instance_76.setTransform(0,1346);
 
-	this.instance_76 = new lib.SamplePageweb_04();
-	this.instance_76.setTransform(0,1020);
+	this.instance_77 = new lib.SamplePageweb_04();
+	this.instance_77.setTransform(0,1020);
 
-	this.instance_77 = new lib.SamplePageweb_02();
-	this.instance_77.setTransform(0,149);
+	this.instance_78 = new lib.SamplePageweb_02();
+	this.instance_78.setTransform(0,149);
 
-	this.instance_78 = new lib.SamplePageweb_01();
+	this.instance_79 = new lib.SamplePageweb_01();
 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f().s("#78F9E2").ss(1,1,1).p("Eg2mggfMBtNAAAMAAABA+MhtNAAAg");
@@ -18985,152 +19031,152 @@ if (reversed == null) { reversed = false; }
 	this.shape_4.graphics.f("#000000").s().p("Eg2mAgfMAAAhA+MBtNAAAMAAABA+g");
 	this.shape_4.setTransform(349.5,586.95);
 
-	this.instance_79 = new lib.SamplePageweb_03();
-	this.instance_79.setTransform(0,379);
+	this.instance_80 = new lib.SamplePageweb_03();
+	this.instance_80.setTransform(0,379);
 
-	this.instance_80 = new lib.page1();
-	this.instance_80.setTransform(1,0);
-
-	this.instance_81 = new lib.page2();
+	this.instance_81 = new lib.page1();
 	this.instance_81.setTransform(1,0);
 
-	this.instance_82 = new lib.page3();
+	this.instance_82 = new lib.page2();
 	this.instance_82.setTransform(1,0);
 
-	this.instance_83 = new lib.page4();
+	this.instance_83 = new lib.page3();
 	this.instance_83.setTransform(1,0);
 
-	this.instance_84 = new lib._005();
+	this.instance_84 = new lib.page4();
+	this.instance_84.setTransform(1,0);
 
-	this.instance_85 = new lib.PaanoGamitin();
-	this.instance_85.setTransform(-5,318,1.2875,1.2875);
+	this.instance_85 = new lib._005();
 
-	this.instance_86 = new lib.blankpage();
-	this.instance_86.setTransform(1,0);
+	this.instance_86 = new lib.PaanoGamitin();
+	this.instance_86.setTransform(-5,318,1.2875,1.2875);
 
-	this.instance_87 = new lib._006();
+	this.instance_87 = new lib.blankpage();
+	this.instance_87.setTransform(1,0);
 
-	this.instance_88 = new lib._007();
+	this.instance_88 = new lib._006();
 
-	this.instance_89 = new lib._009();
+	this.instance_89 = new lib._007();
 
-	this.instance_90 = new lib._010();
+	this.instance_90 = new lib._009();
 
-	this.instance_91 = new lib._011();
+	this.instance_91 = new lib._010();
 
-	this.instance_92 = new lib._012();
+	this.instance_92 = new lib._011();
 
-	this.instance_93 = new lib._013();
+	this.instance_93 = new lib._012();
 
-	this.instance_94 = new lib._014();
+	this.instance_94 = new lib._013();
 
-	this.instance_95 = new lib._015();
+	this.instance_95 = new lib._014();
 
-	this.instance_96 = new lib._016();
+	this.instance_96 = new lib._015();
 
-	this.instance_97 = new lib._017();
+	this.instance_97 = new lib._016();
 
-	this.instance_98 = new lib._018();
+	this.instance_98 = new lib._017();
 
-	this.instance_99 = new lib._019();
+	this.instance_99 = new lib._018();
 
-	this.instance_100 = new lib._020();
+	this.instance_100 = new lib._019();
 
-	this.instance_101 = new lib._021();
+	this.instance_101 = new lib._020();
 
-	this.instance_102 = new lib._022();
+	this.instance_102 = new lib._021();
 
-	this.instance_103 = new lib._023();
+	this.instance_103 = new lib._022();
 
-	this.instance_104 = new lib._024();
+	this.instance_104 = new lib._023();
 
-	this.instance_105 = new lib._025();
+	this.instance_105 = new lib._024();
 
-	this.instance_106 = new lib._026();
+	this.instance_106 = new lib._025();
 
-	this.instance_107 = new lib._027();
+	this.instance_107 = new lib._026();
 
-	this.instance_108 = new lib._028();
+	this.instance_108 = new lib._027();
 
-	this.instance_109 = new lib._029();
+	this.instance_109 = new lib._028();
 
-	this.instance_110 = new lib._030();
+	this.instance_110 = new lib._029();
 
-	this.instance_111 = new lib._031();
+	this.instance_111 = new lib._030();
 
-	this.instance_112 = new lib._032();
+	this.instance_112 = new lib._031();
 
-	this.instance_113 = new lib._033();
+	this.instance_113 = new lib._032();
 
-	this.instance_114 = new lib._034();
+	this.instance_114 = new lib._033();
 
-	this.instance_115 = new lib._035();
+	this.instance_115 = new lib._034();
 
-	this.instance_116 = new lib._036();
+	this.instance_116 = new lib._035();
 
-	this.instance_117 = new lib._037();
+	this.instance_117 = new lib._036();
 
-	this.instance_118 = new lib._038();
+	this.instance_118 = new lib._037();
 
-	this.instance_119 = new lib._039();
+	this.instance_119 = new lib._038();
 
-	this.instance_120 = new lib._040();
+	this.instance_120 = new lib._039();
 
-	this.instance_121 = new lib._041();
+	this.instance_121 = new lib._040();
 
-	this.instance_122 = new lib._042();
+	this.instance_122 = new lib._041();
 
-	this.instance_123 = new lib._043();
+	this.instance_123 = new lib._042();
 
-	this.instance_124 = new lib._044();
+	this.instance_124 = new lib._043();
 
-	this.instance_125 = new lib._045();
+	this.instance_125 = new lib._044();
 
-	this.instance_126 = new lib._046();
+	this.instance_126 = new lib._045();
 
-	this.instance_127 = new lib._047();
+	this.instance_127 = new lib._046();
 
-	this.instance_128 = new lib._048();
+	this.instance_128 = new lib._047();
 
-	this.instance_129 = new lib._049();
+	this.instance_129 = new lib._048();
 
-	this.instance_130 = new lib._050();
+	this.instance_130 = new lib._049();
 
-	this.instance_131 = new lib._051();
+	this.instance_131 = new lib._050();
 
-	this.instance_132 = new lib._052();
+	this.instance_132 = new lib._051();
 
-	this.instance_133 = new lib._053();
+	this.instance_133 = new lib._052();
 
-	this.instance_134 = new lib._054();
+	this.instance_134 = new lib._053();
 
-	this.instance_135 = new lib._055();
+	this.instance_135 = new lib._054();
 
-	this.instance_136 = new lib._056();
+	this.instance_136 = new lib._055();
 
-	this.instance_137 = new lib._057();
+	this.instance_137 = new lib._056();
 
-	this.instance_138 = new lib._058();
+	this.instance_138 = new lib._057();
 
-	this.instance_139 = new lib._059();
+	this.instance_139 = new lib._058();
 
-	this.instance_140 = new lib._060();
+	this.instance_140 = new lib._059();
 
-	this.instance_141 = new lib._061();
+	this.instance_141 = new lib._060();
 
-	this.instance_142 = new lib._062();
+	this.instance_142 = new lib._061();
 
-	this.instance_143 = new lib._063();
+	this.instance_143 = new lib._062();
 
-	this.instance_144 = new lib._064();
+	this.instance_144 = new lib._063();
 
-	this.instance_145 = new lib._065();
+	this.instance_145 = new lib._064();
 
-	this.instance_146 = new lib._066();
+	this.instance_146 = new lib._065();
 
-	this.instance_147 = new lib._067();
+	this.instance_147 = new lib._066();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_73}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_73},{t:this.coverwhole_next},{t:this.howto_navigate}]},1).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.instance_78},{t:this.instance_77},{t:this.instance_76},{t:this.instance_75},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles},{t:this.instance_74}]},1).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_76},{t:this.instance_75},{t:this.instance_74}]},2).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},1).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},8).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},20).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75}]},10).to({state:[{t:this.instance_78},{t:this.instance_77},{t:this.instance_79},{t:this.instance_76},{t:this.instance_75},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_80}]},1).to({state:[{t:this.instance_80}]},8).to({state:[{t:this.instance_81}]},1).to({state:[{t:this.instance_81}]},9).to({state:[{t:this.instance_82}]},1).to({state:[{t:this.instance_82}]},9).to({state:[{t:this.instance_83}]},1).to({state:[{t:this.instance_84}]},10).to({state:[{t:this.instance_84}]},10).to({state:[{t:this.instance_86},{t:this.instance_85}]},1).to({state:[{t:this.instance_86},{t:this.instance_85}]},3).to({state:[{t:this.instance_87}]},1).to({state:[{t:this.instance_88}]},10).to({state:[{t:this.instance_89}]},10).to({state:[{t:this.instance_90}]},10).to({state:[{t:this.instance_91}]},10).to({state:[{t:this.instance_92}]},10).to({state:[{t:this.instance_93}]},10).to({state:[{t:this.instance_94}]},10).to({state:[{t:this.instance_95}]},10).to({state:[{t:this.instance_96}]},10).to({state:[{t:this.instance_97}]},10).to({state:[{t:this.instance_98}]},10).to({state:[{t:this.instance_99}]},10).to({state:[{t:this.instance_100}]},10).to({state:[{t:this.instance_101}]},10).to({state:[{t:this.instance_102}]},10).to({state:[{t:this.instance_103}]},10).to({state:[{t:this.instance_104}]},10).to({state:[{t:this.instance_105}]},10).to({state:[{t:this.instance_106}]},10).to({state:[{t:this.instance_107}]},10).to({state:[{t:this.instance_108}]},10).to({state:[{t:this.instance_109}]},10).to({state:[{t:this.instance_110}]},10).to({state:[{t:this.instance_111}]},10).to({state:[{t:this.instance_112}]},10).to({state:[{t:this.instance_113}]},10).to({state:[{t:this.instance_114}]},10).to({state:[{t:this.instance_115}]},10).to({state:[{t:this.instance_116}]},10).to({state:[{t:this.instance_117}]},10).to({state:[{t:this.instance_118}]},10).to({state:[{t:this.instance_119}]},10).to({state:[{t:this.instance_120}]},10).to({state:[{t:this.instance_121}]},10).to({state:[{t:this.instance_122}]},10).to({state:[{t:this.instance_123}]},10).to({state:[{t:this.instance_124}]},10).to({state:[{t:this.instance_125}]},10).to({state:[{t:this.instance_126}]},10).to({state:[{t:this.instance_127}]},10).to({state:[{t:this.instance_128}]},10).to({state:[{t:this.instance_129}]},10).to({state:[{t:this.instance_130}]},10).to({state:[{t:this.instance_131}]},10).to({state:[{t:this.instance_132}]},10).to({state:[{t:this.instance_133}]},10).to({state:[{t:this.instance_134}]},10).to({state:[{t:this.instance_135}]},10).to({state:[{t:this.instance_136}]},10).to({state:[{t:this.instance_137}]},10).to({state:[{t:this.instance_138}]},10).to({state:[{t:this.instance_139}]},10).to({state:[{t:this.instance_140}]},10).to({state:[{t:this.instance_141}]},10).to({state:[{t:this.instance_142}]},10).to({state:[{t:this.instance_143}]},10).to({state:[{t:this.instance_144}]},10).to({state:[{t:this.instance_145}]},10).to({state:[{t:this.instance_146}]},10).to({state:[{t:this.instance_147}]},10).to({state:[]},10).wait(131));
+	this.instance_148 = new lib._067();
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.intromovie},{t:this.instance_74}]}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.intromovie},{t:this.instance_74},{t:this.coverwhole_next},{t:this.howto_navigate}]},1).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.instance_79},{t:this.instance_78},{t:this.instance_77},{t:this.instance_76},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles},{t:this.instance_75}]},1).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_77},{t:this.instance_76},{t:this.instance_75}]},2).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},1).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},8).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},20).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76}]},10).to({state:[{t:this.instance_79},{t:this.instance_78},{t:this.instance_80},{t:this.instance_77},{t:this.instance_76},{t:this.plasma_membrane},{t:this.nucleus},{t:this.nucleolus},{t:this.cytoplasm},{t:this.mithocondria},{t:this.sm_endosplasmic},{t:this.ribosome},{t:this.golgi_apparatus},{t:this.lysosome},{t:this.ro_endoplasmic},{t:this.centrioles}]},1).to({state:[{t:this.instance_81}]},1).to({state:[{t:this.instance_81}]},8).to({state:[{t:this.instance_82}]},1).to({state:[{t:this.instance_82}]},9).to({state:[{t:this.instance_83}]},1).to({state:[{t:this.instance_83}]},9).to({state:[{t:this.instance_84}]},1).to({state:[{t:this.instance_85}]},10).to({state:[{t:this.instance_85}]},10).to({state:[{t:this.instance_87},{t:this.instance_86}]},1).to({state:[{t:this.instance_87},{t:this.instance_86}]},3).to({state:[{t:this.instance_88}]},1).to({state:[{t:this.instance_89}]},10).to({state:[{t:this.instance_90}]},10).to({state:[{t:this.instance_91}]},10).to({state:[{t:this.instance_92}]},10).to({state:[{t:this.instance_93}]},10).to({state:[{t:this.instance_94}]},10).to({state:[{t:this.instance_95}]},10).to({state:[{t:this.instance_96}]},10).to({state:[{t:this.instance_97}]},10).to({state:[{t:this.instance_98}]},10).to({state:[{t:this.instance_99}]},10).to({state:[{t:this.instance_100}]},10).to({state:[{t:this.instance_101}]},10).to({state:[{t:this.instance_102}]},10).to({state:[{t:this.instance_103}]},10).to({state:[{t:this.instance_104}]},10).to({state:[{t:this.instance_105}]},10).to({state:[{t:this.instance_106}]},10).to({state:[{t:this.instance_107}]},10).to({state:[{t:this.instance_108}]},10).to({state:[{t:this.instance_109}]},10).to({state:[{t:this.instance_110}]},10).to({state:[{t:this.instance_111}]},10).to({state:[{t:this.instance_112}]},10).to({state:[{t:this.instance_113}]},10).to({state:[{t:this.instance_114}]},10).to({state:[{t:this.instance_115}]},10).to({state:[{t:this.instance_116}]},10).to({state:[{t:this.instance_117}]},10).to({state:[{t:this.instance_118}]},10).to({state:[{t:this.instance_119}]},10).to({state:[{t:this.instance_120}]},10).to({state:[{t:this.instance_121}]},10).to({state:[{t:this.instance_122}]},10).to({state:[{t:this.instance_123}]},10).to({state:[{t:this.instance_124}]},10).to({state:[{t:this.instance_125}]},10).to({state:[{t:this.instance_126}]},10).to({state:[{t:this.instance_127}]},10).to({state:[{t:this.instance_128}]},10).to({state:[{t:this.instance_129}]},10).to({state:[{t:this.instance_130}]},10).to({state:[{t:this.instance_131}]},10).to({state:[{t:this.instance_132}]},10).to({state:[{t:this.instance_133}]},10).to({state:[{t:this.instance_134}]},10).to({state:[{t:this.instance_135}]},10).to({state:[{t:this.instance_136}]},10).to({state:[{t:this.instance_137}]},10).to({state:[{t:this.instance_138}]},10).to({state:[{t:this.instance_139}]},10).to({state:[{t:this.instance_140}]},10).to({state:[{t:this.instance_141}]},10).to({state:[{t:this.instance_142}]},10).to({state:[{t:this.instance_143}]},10).to({state:[{t:this.instance_144}]},10).to({state:[{t:this.instance_145}]},10).to({state:[{t:this.instance_146}]},10).to({state:[{t:this.instance_147}]},10).to({state:[{t:this.instance_148}]},10).to({state:[]},10).wait(131));
 
 	// stageBackground
 	this.shape_5 = new cjs.Shape();
@@ -19253,6 +19299,7 @@ lib.properties = {
 		{src:"images/index_atlas_95.png", id:"index_atlas_95"},
 		{src:"images/index_atlas_96.png", id:"index_atlas_96"},
 		{src:"images/index_atlas_97.png", id:"index_atlas_97"},
+		{src:"sounds/intro.mp3", id:"intro"},
 		{src:"sounds/newcomposition4b.mp3", id:"newcomposition4b"},
 		{src:"sounds/newcomposition4d.mp3", id:"newcomposition4d"},
 		{src:"sounds/tap.mp3", id:"tap"},
